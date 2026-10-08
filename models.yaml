@@ -1,0 +1,97 @@
+generated_at: '2026-10-08T20:51:27Z'
+lanes:
+  groq:
+    catalog_count: 11
+    catalog_error: null
+    models:
+    - id: qwen/qwen3.8-27b
+      last_verified: '2026-10-08'
+      deprecation: null
+      status: active
+      consecutive_failures: 0
+      latency_ms: 258
+      probe: HTTP 200
+  nvidia:
+    catalog_count: 80
+    catalog_error: null
+    models:
+    - id: nvidia/nemotron-3.5-lightning-30b-a3b
+      last_verified: '2026-10-08'
+      deprecation: null
+      status: active
+      consecutive_failures: 0
+      latency_ms: 276
+      probe: HTTP 200
+  mistral:
+    catalog_count: 46
+    catalog_error: null
+    models:
+    - id: ministral-8b-latest
+      last_verified: '2026-10-08'
+      deprecation: null
+      status: active
+      consecutive_failures: 0
+      latency_ms: 335
+      probe: HTTP 200
+  zai:
+    catalog_count: null
+    catalog_error: null
+    models:
+    - id: glm-4.7-flash
+      last_verified: '2026-10-08'
+      deprecation: null
+      status: active
+      consecutive_failures: 0
+      latency_ms: 1020
+      probe: HTTP 200
+  ollama:
+    catalog_count: 18
+    catalog_error: null
+    models:
+    - id: gpt-oss:120b
+      last_verified: '2026-10-08'
+      deprecation: null
+      status: active
+      consecutive_failures: 0
+      latency_ms: 458
+      probe: HTTP 200
+  cohere:
+    catalog_count: 35
+    catalog_error: null
+    models:
+    - id: command-r7b-12-2024
+      last_verified: '2026-10-08'
+      deprecation:
+        status: deprecated
+        retires_on: '2025-09-15'
+        replacement: command-r-08-2024
+        source: aimodelwatch
+      status: deprecated
+      consecutive_failures: 0
+      latency_ms: 316
+      probe: HTTP 200
+      capabilities:
+        modality:
+        - text
+        context_window: 128000
+        max_output_tokens: 4000
+        open_weight: true
+        status: ga
+  openrouter:
+    catalog_count: 469
+    catalog_error: null
+    models:
+    - id: meta-llama/llama-3.3-70b-instruct:free
+      last_verified: '2026-10-08'
+      deprecation: null
+      status: dead
+      consecutive_failures: 1
+      latency_ms: null
+      probe: HTTP 404
+      capabilities:
+        modality:
+        - text
+        context_window: 128000
+        knowledge_cutoff: 2023-12
+        open_weight: true
+        status: ga
