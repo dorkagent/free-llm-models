@@ -1,0 +1,3028 @@
+{
+  "generated_at": "2026-10-08T22:13:43Z",
+  "lanes": {
+    "groq": {
+      "catalog_count": 11,
+      "catalog_error": null,
+      "models": [
+        {
+          "id": "openai/gpt-oss-120b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 246,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "meta-llama/llama-prompt-guard-2-86m",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 512,
+            "max_output_tokens": 512,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "whisper-large-v3-turbo",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 0,
+            "max_output_tokens": 0,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "audio"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "openai/gpt-oss-safeguard-20b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "canopylabs/orpheus-v1-english",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 4000,
+            "max_output_tokens": 50000,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "audio"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "openai/gpt-oss-20b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 82,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "meta-llama/llama-prompt-guard-2-22m",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 512,
+            "max_output_tokens": 512,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "allam-2-7b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 4096,
+            "max_output_tokens": 4096,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 272,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "canopylabs/orpheus-arabic-saudi",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 4000,
+            "max_output_tokens": 50000,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "audio"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "whisper-large-v3",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 0,
+            "max_output_tokens": 0,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "audio"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "qwen/qwen3.8-27b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131042,
+            "max_output_tokens": 16384,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 101,
+          "probe": "HTTP 200"
+        }
+      ]
+    },
+    "nvidia": {
+      "catalog_count": 80,
+      "catalog_error": null,
+      "models": [
+        {
+          "id": "01-ai/yi-large",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "adept/fuyu-8b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "ai21labs/jamba-1.5-large-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "aisingapore/sea-lion-7b-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "bigcode/starcoder2-15b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "databricks/dbrx-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "deepseek-ai/deepseek-coder-6.7b-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "deepseek-ai/deepseek-v4.1-flash",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1000000,
+            "max_output_tokens": 384000,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 884,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "google/codegemma-1.1-7b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "google/codegemma-7b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "google/deplot",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "google/diffusiongemma-26b-a4b-it",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 250000,
+            "max_output_tokens": 32768,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 274,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "google/gemma-2b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "google/gemma-3-12b-it",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 16384,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "google/gemma-3-4b-it",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 16384,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "google/gemma-4-31b-it",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 256000,
+            "max_output_tokens": 16384,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "video"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP -1"
+        },
+        {
+          "id": "google/recurrentgemma-2b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "ibm/granite-3.0-3b-a800m-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "ibm/granite-3.0-8b-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "ibm/granite-34b-code-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "ibm/granite-8b-code-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "meta/codellama-70b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "meta/llama-3.2-11b-vision-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 4096,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 1407,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "meta/llama-3.2-90b-vision-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 8192,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 866,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "meta/llama-guard-4-12b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 16384,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "meta/llama2-70b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "meta/muse-glimmer-30b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 131072,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 1368,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "microsoft/kosmos-2",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "microsoft/phi-3-vision-128k-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "microsoft/phi-3.5-moe-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "mistralai/codestral-22b-instruct-v0.1",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "mistralai/mistral-7b-instruct-v0.3",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 65536,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "mistralai/mistral-large",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "mistralai/mistral-large-2-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "mistralai/mixtral-8x22b-v0.1",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "moonshotai/kimi-k2.6",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "video"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "moonshotai/kimi-k3",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1048576,
+            "max_output_tokens": 131072,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "video"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP -1"
+        },
+        {
+          "id": "nv-mistralai/mistral-nemo-12b-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/ai-synthetic-video-detector",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 500"
+        },
+        {
+          "id": "nvidia/cosmos-reason2-8b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 16384,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "video"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/embed-qa-4",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/ising-calibration-1.5-31b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 12046,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nvidia/llama-3.1-nemoguard-8b-content-safety",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/llama-3.1-nemotron-51b-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 8192,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 4096,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 16384,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/llama-3.2-nv-embedqa-1b-v1",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 32768,
+            "max_output_tokens": 2048,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/llama3-chatqa-1.5-70b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/mistral-nemo-minitron-8b-8k-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/nemotron-3-embed-1b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 256000,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "video",
+                "audio"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 420,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nvidia/nemotron-3-super-120b-a12b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 258,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nvidia/nemotron-3-ultra-550b-a55b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1000000,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 831,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nvidia/nemotron-3.5-content-safety",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 8192,
+            "tool_call": false,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 276,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nvidia/nemotron-4-340b-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/nemotron-4-340b-reward",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/nemotron-nano-3-30b-a3b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/nemotron-parse",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "nvidia/nemotron-parse-2.0",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 251,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nvidia/neva-22b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/nv-embedqa-mistral-7b-v2",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/nvclip",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/riva-translate-4b-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 4096,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/riva-translate-4b-instruct-v2",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP -1"
+        },
+        {
+          "id": "nvidia/vila",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "openai/gpt-oss-20b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 32768,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 254,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "poolside/laguna-xs-2.1",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 16384,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 278,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "snowflake/arctic-embed-l",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "writer/palmyra-creative-122b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "writer/palmyra-fin-70b-32k",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "writer/palmyra-med-70b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "writer/palmyra-med-70b-32k",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "z-ai/glm-5.3",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1000000,
+            "max_output_tokens": 131072,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 536,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "z-ai/glm-5.3-flash",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1000000,
+            "max_output_tokens": 131072,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "video",
+                "pdf"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 9530,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "zyphra/zamba2-7b-instruct",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        }
+      ]
+    },
+    "mistral": {
+      "catalog_count": 46,
+      "catalog_error": null,
+      "models": [
+        {
+          "id": "codestral-2508",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 256000,
+            "max_output_tokens": 8192,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 351,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "codestral-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 256000,
+            "max_output_tokens": 4096,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 325,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "mistral-code-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 388,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "mistral-code-fim-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 393,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "labs-leanstral-1-5-1",
+          "last_verified": "2026-10-08",
+          "deprecation": {
+            "status": "deprecated",
+            "retires_on": "2026-09-30",
+            "replacement": null,
+            "source": "aimodelwatch"
+          },
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 128000,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 403"
+        },
+        {
+          "id": "labs-leanstral-1-5",
+          "last_verified": "2026-10-08",
+          "deprecation": {
+            "status": "deprecated",
+            "retires_on": "2026-09-30",
+            "replacement": null,
+            "source": "aimodelwatch"
+          },
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 128000,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 403"
+        },
+        {
+          "id": "ministral-14b-2512",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 821,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "ministral-14b-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 727,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "ministral-3b-2512",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 402,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "ministral-3b-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 128000,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 394,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "ministral-8b-2512",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 365,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "ministral-8b-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 128000,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 368,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "mistral-medium-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "mistral-medium",
+          "last_verified": "2026-10-08",
+          "deprecation": {
+            "status": "deprecated",
+            "retires_on": "2026-08-31",
+            "replacement": "mistral-medium-latest",
+            "source": "aimodelwatch"
+          },
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "mistral-medium-3-5",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "mistral-medium-3.5",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "mistral-medium-3",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "mistral-medium-2604",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "mistral-vibe-cli-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "mistral-vibe-cli-with-tools",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "magistral-medium-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 16384,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "mistral-small-2603",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 256000,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "mistral-small-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 256000,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "mistral-vibe-cli-fast",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "magistral-small-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "voxtral-small-2507",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 32768,
+            "max_output_tokens": 32000,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "audio"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 339,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "voxtral-small-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 32768,
+            "max_output_tokens": 32000,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text",
+                "audio"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 302,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "codestral-embed",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 8192,
+            "max_output_tokens": null,
+            "knowledge_cutoff": null,
+            "open_weights": false,
+            "source": "aimodelwatch"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "codestral-embed-2505",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 8192,
+            "max_output_tokens": null,
+            "knowledge_cutoff": null,
+            "open_weights": false,
+            "source": "aimodelwatch"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "mistral-embed-2312",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 8000,
+            "max_output_tokens": 3072,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "mistral-embed",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 8000,
+            "max_output_tokens": 3072,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "mistral-moderation-2603",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "mistral-ocr-2512",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "mistral-ocr-3-0",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "mistral-ocr-3",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "mistral-ocr-4-0",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "mistral-ocr-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "mistral-ocr-4",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "mistral-ocr-4-1",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "voxtral-mini-2602",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "voxtral-mini-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 0,
+            "max_output_tokens": 0,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "audio"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "voxtral-mini-transcribe-realtime-2602",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "voxtral-mini-realtime-2602",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "voxtral-mini-realtime-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
+          "id": "voxtral-mini-tts-2603",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "voxtral-mini-tts-latest",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 0,
+            "max_output_tokens": 0,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "audio"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        }
+      ]
+    },
+    "zai": {
+      "catalog_count": null,
+      "catalog_error": null,
+      "models": [
+        {
+          "id": "glm-4.7-flash",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 200000,
+            "max_output_tokens": 131072,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP -1"
+        },
+        {
+          "id": "glm-4.5-flash",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 98304,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 878,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "glm-4.6v-flash",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 32768,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "video"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        }
+      ]
+    },
+    "ollama": {
+      "catalog_count": 18,
+      "catalog_error": null,
+      "models": [
+        {
+          "id": "kimi-k3",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1048576,
+            "max_output_tokens": null,
+            "knowledge_cutoff": null,
+            "open_weights": false,
+            "source": "aimodelwatch"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "gpt-oss:120b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 422,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "minimax-m2.7",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "deepseek-v4-pro:0813",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1000000,
+            "max_output_tokens": 384000,
+            "knowledge_cutoff": null,
+            "open_weights": true,
+            "source": "aimodelwatch"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "deepseek-v4.1-flash",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "nemotron-3-nano:30b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 599,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "mistral-large-3:675b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "mistral-large-4",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 403"
+        },
+        {
+          "id": "kimi-k2.6",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": null,
+            "knowledge_cutoff": null,
+            "open_weights": true,
+            "source": "aimodelwatch"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "gpt-oss:20b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 625,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "minimax-m3",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "glm-5.2",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "gemma4:31b",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 513,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "glm-5.3",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "glm-5.3-flash",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "kimi-k2.7-code",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": null,
+            "knowledge_cutoff": null,
+            "open_weights": true,
+            "source": "aimodelwatch"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "nemotron-3-super",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 594,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nemotron-3-ultra",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 750,
+          "probe": "HTTP 200"
+        }
+      ]
+    },
+    "cohere": {
+      "catalog_count": 35,
+      "catalog_error": null,
+      "models": [
+        {
+          "id": "command-r7b-12-2024",
+          "last_verified": "2026-10-08",
+          "deprecation": {
+            "status": "deprecated",
+            "retires_on": "2025-09-15",
+            "replacement": "command-r-08-2024",
+            "source": "aimodelwatch"
+          },
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 4000,
+            "tool_call": true,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "deprecated",
+          "consecutive_failures": 0,
+          "latency_ms": 229,
+          "probe": "HTTP 200"
+        }
+      ]
+    },
+    "openrouter": {
+      "catalog_count": 469,
+      "catalog_error": null,
+      "models": [
+        {
+          "id": "apodex/apodex-1.1-mini:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 235929,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 663,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "dots-studio/dots-3-note-preview:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 512000,
+            "max_output_tokens": 460800,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 1061,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "liquid/lfm-2.5-2.6b:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 65536,
+            "max_output_tokens": 8192,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/nemotron-3.5-lightning:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1000000,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "thinkingmachines/inkling-small:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1048576,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "audio"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 403"
+        },
+        {
+          "id": "poolside/laguna-s-2.1:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 32768,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "thinkingmachines/inkling:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1048576,
+            "max_output_tokens": 262144,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "audio"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 403"
+        },
+        {
+          "id": "poolside/laguna-xs-2.1:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 32768,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "cohere/north-mini-code:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 256000,
+            "max_output_tokens": 64000,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 216,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nvidia/nemotron-3.5-content-safety:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 128000,
+            "max_output_tokens": 8192,
+            "tool_call": false,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1000000,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 256000,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "video",
+                "audio"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        },
+        {
+          "id": "google/gemma-4-26b-a4b-it:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 32768,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "image",
+                "text",
+                "video"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "google/gemma-4-31b-it:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 32768,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "image",
+                "text",
+                "video"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
+        },
+        {
+          "id": "nvidia/nemotron-3-super-120b-a12b:free",
+          "last_verified": "2026-10-08",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": 235929,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 404"
+        }
+      ]
+    }
+  }
+}
