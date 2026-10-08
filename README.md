@@ -2,19 +2,19 @@
 
 Which free API models actually work *right now*, verified daily with real free-tier keys — not copied from pricing pages.
 
-_Last verified: 2026-10-08T20:51:27Z_
+_Last verified: 2026-10-08T20:57:57Z_
 
 ## Models
 
 | Lane | Model | Status | Latency | Capabilities | Last check |
 |---|---|---|---|---|---|
-| groq | `qwen/qwen3.8-27b` | **active** | 258ms | — | 2026-10-08 |
-| nvidia | `nvidia/nemotron-3.5-lightning-30b-a3b` | **active** | 276ms | — | 2026-10-08 |
-| mistral | `ministral-8b-latest` | **active** | 335ms | — | 2026-10-08 |
-| zai | `glm-4.7-flash` | **active** | 1020ms | — | 2026-10-08 |
-| ollama | `gpt-oss:120b` | **active** | 458ms | — | 2026-10-08 |
-| cohere | `command-r7b-12-2024` | **deprecated** | 316ms | modality=['text'], context_window=128000, max_output_tokens=4000, open_weight=True, status=ga | 2026-10-08 |
-| openrouter | `meta-llama/llama-3.3-70b-instruct:free` | **dead** | — | modality=['text'], context_window=128000, knowledge_cutoff=2023-12, open_weight=True, status=ga | 2026-10-08 |
+| groq | `qwen/qwen3.8-27b` | **active** | 185ms | — | 2026-10-08 |
+| nvidia | `nvidia/nemotron-3.5-lightning-30b-a3b` | **active** | 253ms | — | 2026-10-08 |
+| mistral | `ministral-8b-latest` | **active** | 349ms | — | 2026-10-08 |
+| zai | `glm-4.7-flash` | **dead** | — | — | 2026-10-08 |
+| ollama | `gpt-oss:120b` | **active** | 428ms | — | 2026-10-08 |
+| cohere | `command-r7b-12-2024` | **deprecated** | 255ms | modality=['text'], context_window=128000, max_output_tokens=4000, open_weight=True, status=ga | 2026-10-08 |
+| openrouter | `apodex/apodex-1.1-mini:free` | **active** | 699ms | — | 2026-10-08 |
 
 ## Capability leaders (among verified-active models)
 

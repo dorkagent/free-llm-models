@@ -1,4 +1,4 @@
-generated_at: '2026-10-08T20:51:27Z'
+generated_at: '2026-10-08T20:57:57Z'
 lanes:
   groq:
     catalog_count: 11
@@ -9,7 +9,7 @@ lanes:
       deprecation: null
       status: active
       consecutive_failures: 0
-      latency_ms: 258
+      latency_ms: 185
       probe: HTTP 200
   nvidia:
     catalog_count: 80
@@ -20,7 +20,7 @@ lanes:
       deprecation: null
       status: active
       consecutive_failures: 0
-      latency_ms: 276
+      latency_ms: 253
       probe: HTTP 200
   mistral:
     catalog_count: 46
@@ -31,7 +31,7 @@ lanes:
       deprecation: null
       status: active
       consecutive_failures: 0
-      latency_ms: 335
+      latency_ms: 349
       probe: HTTP 200
   zai:
     catalog_count: null
@@ -40,10 +40,10 @@ lanes:
     - id: glm-4.7-flash
       last_verified: '2026-10-08'
       deprecation: null
-      status: active
-      consecutive_failures: 0
-      latency_ms: 1020
-      probe: HTTP 200
+      status: dead
+      consecutive_failures: 1
+      latency_ms: null
+      probe: HTTP -1
   ollama:
     catalog_count: 18
     catalog_error: null
@@ -53,7 +53,7 @@ lanes:
       deprecation: null
       status: active
       consecutive_failures: 0
-      latency_ms: 458
+      latency_ms: 428
       probe: HTTP 200
   cohere:
     catalog_count: 35
@@ -68,7 +68,7 @@ lanes:
         source: aimodelwatch
       status: deprecated
       consecutive_failures: 0
-      latency_ms: 316
+      latency_ms: 255
       probe: HTTP 200
       capabilities:
         modality:
@@ -81,17 +81,10 @@ lanes:
     catalog_count: 469
     catalog_error: null
     models:
-    - id: meta-llama/llama-3.3-70b-instruct:free
+    - id: apodex/apodex-1.1-mini:free
       last_verified: '2026-10-08'
       deprecation: null
-      status: dead
-      consecutive_failures: 1
-      latency_ms: null
-      probe: HTTP 404
-      capabilities:
-        modality:
-        - text
-        context_window: 128000
-        knowledge_cutoff: 2023-12
-        open_weight: true
-        status: ga
+      status: active
+      consecutive_failures: 0
+      latency_ms: 699
+      probe: HTTP 200
