@@ -2,23 +2,26 @@
 
 Which free API models actually work *right now*, verified daily with real free-tier keys — not copied from pricing pages.
 
-_Last verified: 2026-10-08T20:57:57Z_
+_Last verified: 2026-10-08T21:09:09Z_
 
 ## Models
 
 | Lane | Model | Status | Latency | Capabilities | Last check |
 |---|---|---|---|---|---|
-| groq | `qwen/qwen3.8-27b` | **active** | 185ms | — | 2026-10-08 |
-| nvidia | `nvidia/nemotron-3.5-lightning-30b-a3b` | **active** | 253ms | — | 2026-10-08 |
-| mistral | `ministral-8b-latest` | **active** | 349ms | — | 2026-10-08 |
-| zai | `glm-4.7-flash` | **dead** | — | — | 2026-10-08 |
-| ollama | `gpt-oss:120b` | **active** | 428ms | — | 2026-10-08 |
-| cohere | `command-r7b-12-2024` | **deprecated** | 255ms | modality=['text'], context_window=128000, max_output_tokens=4000, open_weight=True, status=ga | 2026-10-08 |
-| openrouter | `apodex/apodex-1.1-mini:free` | **active** | 699ms | — | 2026-10-08 |
+| groq | `qwen/qwen3.8-27b` | **active** | 222ms | ctx 131k, tools, reasoning | 2026-10-08 |
+| nvidia | `nvidia/nemotron-3.5-lightning-30b-a3b` | **active** | 4491ms | ctx 262k, tools, reasoning | 2026-10-08 |
+| mistral | `ministral-8b-latest` | **active** | 397ms | ctx 262k, tools | 2026-10-08 |
+| zai | `glm-4.7-flash` | **active** | 1565ms | ctx 200k, tools, reasoning | 2026-10-08 |
+| ollama | `gpt-oss:120b` | **active** | 570ms | — | 2026-10-08 |
+| cohere | `command-r7b-12-2024` | **deprecated** | 310ms | ctx 128k, tools | 2026-10-08 |
+| openrouter | `apodex/apodex-1.1-mini:free` | **active** | 1234ms | ctx 262k, tools, reasoning | 2026-10-08 |
 
-## Capability leaders (among verified-active models)
+## Right model for the right job (verified-active only)
 
-_No active models with capability data right now._
+- **Largest context**: `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia) — 262,144 tokens
+- **Fastest response**: `qwen/qwen3.8-27b` (groq) — 222ms probe
+- **Tool calling**: `qwen/qwen3.8-27b` (groq), `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia), `ministral-8b-latest` (mistral), `glm-4.7-flash` (zai), `apodex/apodex-1.1-mini:free` (openrouter)
+- **Reasoning**: `qwen/qwen3.8-27b` (groq), `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia), `glm-4.7-flash` (zai), `apodex/apodex-1.1-mini:free` (openrouter)
 
 ## Methodology
 
