@@ -1,4 +1,4 @@
-generated_at: '2026-10-08T21:09:09Z'
+generated_at: '2026-10-08T21:30:53Z'
 lanes:
   groq:
     catalog_count: 11
@@ -9,7 +9,7 @@ lanes:
       deprecation: null
       status: active
       consecutive_failures: 0
-      latency_ms: 222
+      latency_ms: 171
       probe: HTTP 200
       capabilities:
         context_window: 131042
@@ -33,7 +33,7 @@ lanes:
       deprecation: null
       status: active
       consecutive_failures: 0
-      latency_ms: 4491
+      latency_ms: 250
       probe: HTTP 200
       capabilities:
         context_window: 262144
@@ -56,7 +56,7 @@ lanes:
       deprecation: null
       status: active
       consecutive_failures: 0
-      latency_ms: 397
+      latency_ms: 382
       probe: HTTP 200
       capabilities:
         context_window: 262144
@@ -78,10 +78,10 @@ lanes:
     - id: glm-4.7-flash
       last_verified: '2026-10-08'
       deprecation: null
-      status: active
-      consecutive_failures: 0
-      latency_ms: 1565
-      probe: HTTP 200
+      status: dead
+      consecutive_failures: 1
+      latency_ms: null
+      probe: HTTP -1
       capabilities:
         context_window: 200000
         max_output_tokens: 131072
@@ -103,7 +103,7 @@ lanes:
       deprecation: null
       status: active
       consecutive_failures: 0
-      latency_ms: 570
+      latency_ms: 360
       probe: HTTP 200
   cohere:
     catalog_count: 35
@@ -118,7 +118,7 @@ lanes:
         source: aimodelwatch
       status: deprecated
       consecutive_failures: 0
-      latency_ms: 310
+      latency_ms: 216
       probe: HTTP 200
       capabilities:
         context_window: 128000
@@ -141,7 +141,7 @@ lanes:
       deprecation: null
       status: active
       consecutive_failures: 0
-      latency_ms: 1234
+      latency_ms: 1092
       probe: HTTP 200
       capabilities:
         context_window: 262144
