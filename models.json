@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-09T03:08:38Z",
+  "generated_at": "2026-10-09T04:38:23Z",
   "lanes": {
     "groq": {
       "catalog_count": 11,
       "catalog_error": null,
       "models": [
         {
-          "id": "meta-llama/llama-prompt-guard-2-22m",
+          "id": "meta-llama/llama-prompt-guard-2-86m",
           "last_verified": "2026-10-09",
           "deprecation": null,
           "capabilities": {
@@ -17,30 +17,6 @@
             "modalities": {
               "input": [
                 "text"
-              ],
-              "output": [
-                "text"
-              ]
-            },
-            "open_weights": true,
-            "source": "models.dev"
-          },
-          "status": "not-chat",
-          "consecutive_failures": 0,
-          "probe": "skipped (non-chat model id)"
-        },
-        {
-          "id": "whisper-large-v3",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": {
-            "context_window": 0,
-            "max_output_tokens": 0,
-            "tool_call": false,
-            "reasoning": false,
-            "modalities": {
-              "input": [
-                "audio"
               ],
               "output": [
                 "text"
@@ -78,32 +54,7 @@
           "probe": "HTTP 400 (not a chat model)"
         },
         {
-          "id": "openai/gpt-oss-120b",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": {
-            "context_window": 131072,
-            "max_output_tokens": 65536,
-            "tool_call": true,
-            "reasoning": true,
-            "modalities": {
-              "input": [
-                "text"
-              ],
-              "output": [
-                "text"
-              ]
-            },
-            "open_weights": true,
-            "source": "models.dev"
-          },
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 301,
-          "probe": "HTTP 200"
-        },
-        {
-          "id": "whisper-large-v3-turbo",
+          "id": "whisper-large-v3",
           "last_verified": "2026-10-09",
           "deprecation": null,
           "capabilities": {
@@ -151,14 +102,14 @@
           "probe": "HTTP 400 (not a chat model)"
         },
         {
-          "id": "meta-llama/llama-prompt-guard-2-86m",
+          "id": "openai/gpt-oss-20b",
           "last_verified": "2026-10-09",
           "deprecation": null,
           "capabilities": {
-            "context_window": 512,
-            "max_output_tokens": 512,
-            "tool_call": false,
-            "reasoning": false,
+            "context_window": 131072,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
             "modalities": {
               "input": [
                 "text"
@@ -170,9 +121,10 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "not-chat",
+          "status": "active",
           "consecutive_failures": 0,
-          "probe": "skipped (non-chat model id)"
+          "latency_ms": 289,
+          "probe": "HTTP 200"
         },
         {
           "id": "qwen/qwen3.8-27b",
@@ -197,35 +149,11 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 127,
+          "latency_ms": 115,
           "probe": "HTTP 200"
         },
         {
-          "id": "openai/gpt-oss-safeguard-20b",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": {
-            "context_window": 131072,
-            "max_output_tokens": 65536,
-            "tool_call": true,
-            "reasoning": true,
-            "modalities": {
-              "input": [
-                "text"
-              ],
-              "output": [
-                "text"
-              ]
-            },
-            "open_weights": true,
-            "source": "models.dev"
-          },
-          "status": "not-chat",
-          "consecutive_failures": 0,
-          "probe": "skipped (non-chat model id)"
-        },
-        {
-          "id": "openai/gpt-oss-20b",
+          "id": "openai/gpt-oss-120b",
           "last_verified": "2026-10-09",
           "deprecation": null,
           "capabilities": {
@@ -246,7 +174,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 149,
+          "latency_ms": 239,
           "probe": "HTTP 200"
         },
         {
@@ -271,8 +199,80 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 249,
+          "latency_ms": 258,
           "probe": "HTTP 200"
+        },
+        {
+          "id": "meta-llama/llama-prompt-guard-2-22m",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 512,
+            "max_output_tokens": 512,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "whisper-large-v3-turbo",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 0,
+            "max_output_tokens": 0,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "audio"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
+        },
+        {
+          "id": "openai/gpt-oss-safeguard-20b",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131072,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "skipped (non-chat model id)"
         }
       ]
     },
@@ -429,7 +429,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 143,
+          "latency_ms": 523,
           "probe": "HTTP 200"
         },
         {
@@ -604,7 +604,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 295,
+          "latency_ms": 1202,
           "probe": "HTTP 200"
         },
         {
@@ -630,7 +630,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 1802,
+          "latency_ms": 872,
           "probe": "HTTP 200"
         },
         {
@@ -691,7 +691,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 630,
+          "latency_ms": 4751,
           "probe": "HTTP 200"
         },
         {
@@ -856,7 +856,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 513,
+          "latency_ms": 518,
           "probe": "HTTP 200"
         },
         {
@@ -922,7 +922,7 @@
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 191,
+          "latency_ms": 227,
           "probe": "HTTP 200"
         },
         {
@@ -976,7 +976,7 @@
           "status": "dead",
           "consecutive_failures": 1,
           "latency_ms": null,
-          "probe": "HTTP 502"
+          "probe": "HTTP 404"
         },
         {
           "id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
@@ -1122,10 +1122,10 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 503"
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 4505,
+          "probe": "HTTP 200"
         },
         {
           "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -1149,7 +1149,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 287,
+          "latency_ms": 2041,
           "probe": "HTTP 200"
         },
         {
@@ -1174,7 +1174,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 1730,
+          "latency_ms": 1673,
           "probe": "HTTP 200"
         },
         {
@@ -1224,7 +1224,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 201,
+          "latency_ms": 2053,
           "probe": "HTTP 200"
         },
         {
@@ -1273,7 +1273,7 @@
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 128,
+          "latency_ms": 213,
           "probe": "HTTP 200"
         },
         {
@@ -1372,7 +1372,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 528,
+          "latency_ms": 637,
           "probe": "HTTP 200"
         },
         {
@@ -1471,7 +1471,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 617,
+          "latency_ms": 281,
           "probe": "HTTP 200"
         },
         {
@@ -1540,7 +1540,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 279,
+          "latency_ms": 354,
           "probe": "HTTP 200"
         },
         {
@@ -1565,7 +1565,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 259,
+          "latency_ms": 316,
           "probe": "HTTP 200"
         },
         {
@@ -1575,7 +1575,7 @@
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 270,
+          "latency_ms": 295,
           "probe": "HTTP 200"
         },
         {
@@ -1585,7 +1585,7 @@
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 316,
+          "latency_ms": 364,
           "probe": "HTTP 200"
         },
         {
@@ -1673,7 +1673,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 374,
+          "latency_ms": 771,
           "probe": "HTTP 200"
         },
         {
@@ -1683,7 +1683,7 @@
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 415,
+          "latency_ms": 345,
           "probe": "HTTP 200"
         },
         {
@@ -1709,7 +1709,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 811,
+          "latency_ms": 295,
           "probe": "HTTP 200"
         },
         {
@@ -1735,7 +1735,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 253,
+          "latency_ms": 282,
           "probe": "HTTP 200"
         },
         {
@@ -1761,7 +1761,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 292,
+          "latency_ms": 368,
           "probe": "HTTP 200"
         },
         {
@@ -2031,7 +2031,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 280,
+          "latency_ms": 306,
           "probe": "HTTP 200"
         },
         {
@@ -2057,7 +2057,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 276,
+          "latency_ms": 300,
           "probe": "HTTP 200"
         },
         {
@@ -2329,9 +2329,10 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "rate-limited",
+          "status": "active",
           "consecutive_failures": 0,
-          "probe": "HTTP 429"
+          "latency_ms": 1252,
+          "probe": "HTTP 200"
         },
         {
           "id": "glm-4.5-flash",
@@ -2355,7 +2356,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 810,
+          "latency_ms": 873,
           "probe": "HTTP 200"
         },
         {
@@ -2380,10 +2381,9 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "active",
+          "status": "rate-limited",
           "consecutive_failures": 0,
-          "latency_ms": 946,
-          "probe": "HTTP 200"
+          "probe": "HTTP 429"
         }
       ]
     },
@@ -2392,20 +2392,16 @@
       "catalog_error": null,
       "models": [
         {
-          "id": "nemotron-3-ultra",
+          "id": "kimi-k2.7-code",
           "last_verified": "2026-10-09",
           "deprecation": null,
-          "capabilities": null,
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 3954,
-          "probe": "HTTP 200"
-        },
-        {
-          "id": "glm-5.3-flash",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
+          "capabilities": {
+            "context_window": 262144,
+            "max_output_tokens": null,
+            "knowledge_cutoff": null,
+            "open_weights": true,
+            "source": "aimodelwatch"
+          },
           "status": "dead",
           "consecutive_failures": 1,
           "latency_ms": null,
@@ -2418,7 +2414,57 @@
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 435,
+          "latency_ms": 1680,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "glm-5.3",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "deepseek-v4.1-flash",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "minimax-m2.7",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "mistral-large-4",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 403"
+        },
+        {
+          "id": "gemma4:31b",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 438,
           "probe": "HTTP 200"
         },
         {
@@ -2432,6 +2478,76 @@
             "open_weights": true,
             "source": "aimodelwatch"
           },
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "minimax-m3",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "nemotron-3-ultra",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 3815,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "gpt-oss:120b",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 426,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nemotron-3-nano:30b",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 337,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "mistral-large-3:675b",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "glm-5.2",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "glm-5.3-flash",
+          "last_verified": "2026-10-09",
+          "deprecation": null,
+          "capabilities": null,
           "status": "dead",
           "consecutive_failures": 1,
           "latency_ms": null,
@@ -2454,110 +2570,14 @@
           "probe": "HTTP 402"
         },
         {
-          "id": "mistral-large-4",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 403"
-        },
-        {
-          "id": "gpt-oss:120b",
+          "id": "nemotron-3-super",
           "last_verified": "2026-10-09",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 324,
+          "latency_ms": 579,
           "probe": "HTTP 200"
-        },
-        {
-          "id": "gemma4:31b",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 327,
-          "probe": "HTTP 200"
-        },
-        {
-          "id": "glm-5.3",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
-        },
-        {
-          "id": "kimi-k2.7-code",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": {
-            "context_window": 262144,
-            "max_output_tokens": null,
-            "knowledge_cutoff": null,
-            "open_weights": true,
-            "source": "aimodelwatch"
-          },
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
-        },
-        {
-          "id": "minimax-m2.7",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
-        },
-        {
-          "id": "glm-5.2",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
-        },
-        {
-          "id": "deepseek-v4.1-flash",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
-        },
-        {
-          "id": "nemotron-3-nano:30b",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 544,
-          "probe": "HTTP 200"
-        },
-        {
-          "id": "mistral-large-3:675b",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
         },
         {
           "id": "kimi-k3",
@@ -2574,26 +2594,6 @@
           "consecutive_failures": 1,
           "latency_ms": null,
           "probe": "HTTP 402"
-        },
-        {
-          "id": "minimax-m3",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
-        },
-        {
-          "id": "nemotron-3-super",
-          "last_verified": "2026-10-09",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 501,
-          "probe": "HTTP 200"
         }
       ]
     },
@@ -2628,7 +2628,7 @@
           },
           "status": "deprecated",
           "consecutive_failures": 0,
-          "latency_ms": 222,
+          "latency_ms": 239,
           "probe": "HTTP 200"
         }
       ]
@@ -2657,9 +2657,10 @@
             "open_weights": false,
             "source": "models.dev"
           },
-          "status": "rate-limited",
+          "status": "active",
           "consecutive_failures": 0,
-          "probe": "HTTP 429"
+          "latency_ms": 679,
+          "probe": "HTTP 200"
         },
         {
           "id": "dots-studio/dots-3-note-preview:free",
@@ -2684,7 +2685,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 788,
+          "latency_ms": 12004,
           "probe": "HTTP 200"
         },
         {
@@ -2863,7 +2864,7 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 11404,
+          "latency_ms": 5972,
           "probe": "HTTP 200"
         },
         {
@@ -3045,17 +3046,24 @@
           },
           "status": "retired",
           "consecutive_failures": 0,
-          "probe": "skipped (retired per aimodelwatch)"
+          "probe": "skipped (retired per aimodelwatch)",
+          "shadow_probe": {
+            "http_status": 200,
+            "latency_ms": 202,
+            "inferred_status": "active",
+            "feed_accurate": false,
+            "disagreement_days": 1
+          }
         },
         {
           "id": "GLM-5.3-Flash",
           "last_verified": "2026-10-09",
           "deprecation": null,
           "capabilities": null,
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 2777,
-          "probe": "HTTP 200"
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP -1"
         },
         {
           "id": "codestral-latest",
@@ -3064,7 +3072,7 @@
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 392,
+          "latency_ms": 1351,
           "probe": "HTTP 200"
         },
         {
@@ -3074,7 +3082,7 @@
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 990,
+          "latency_ms": 210,
           "probe": "HTTP 200"
         },
         {
@@ -3084,7 +3092,7 @@
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 761,
+          "latency_ms": 819,
           "probe": "HTTP 200"
         },
         {
@@ -3092,10 +3100,9 @@
           "last_verified": "2026-10-09",
           "deprecation": null,
           "capabilities": null,
-          "status": "active",
+          "status": "rate-limited",
           "consecutive_failures": 0,
-          "latency_ms": 734,
-          "probe": "HTTP 200"
+          "probe": "HTTP 429"
         },
         {
           "id": "minimax-m2.7",
@@ -3111,18 +3118,20 @@
           "last_verified": "2026-10-09",
           "deprecation": null,
           "capabilities": null,
-          "status": "rate-limited",
+          "status": "active",
           "consecutive_failures": 0,
-          "probe": "HTTP 429"
+          "latency_ms": 3319,
+          "probe": "HTTP 200"
         },
         {
           "id": "mistral-Nemo-Instruct-2407",
           "last_verified": "2026-10-09",
           "deprecation": null,
           "capabilities": null,
-          "status": "rate-limited",
+          "status": "active",
           "consecutive_failures": 0,
-          "probe": "HTTP 429"
+          "latency_ms": 650,
+          "probe": "HTTP 200"
         },
         {
           "id": "nemotron-3-nano:30b",
