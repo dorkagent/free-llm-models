@@ -1,10 +1,84 @@
-generated_at: '2026-10-09T04:38:23Z'
+generated_at: '2026-10-09T05:17:51Z'
 lanes:
   groq:
     catalog_count: 11
     catalog_error: null
     models:
-    - id: meta-llama/llama-prompt-guard-2-86m
+    - id: canopylabs/orpheus-arabic-saudi
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities:
+        context_window: 4000
+        max_output_tokens: 50000
+        tool_call: false
+        reasoning: false
+        modalities:
+          input:
+          - text
+          output:
+          - audio
+        open_weights: false
+        source: models.dev
+      status: not-chat
+      consecutive_failures: 0
+      probe: HTTP 400 (not a chat model)
+    - id: openai/gpt-oss-20b
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities:
+        context_window: 131072
+        max_output_tokens: 65536
+        tool_call: true
+        reasoning: true
+        modalities:
+          input:
+          - text
+          output:
+          - text
+        open_weights: true
+        source: models.dev
+      status: active
+      consecutive_failures: 0
+      latency_ms: 122
+      probe: HTTP 200
+    - id: allam-2-7b
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities:
+        context_window: 4096
+        max_output_tokens: 4096
+        tool_call: false
+        reasoning: false
+        modalities:
+          input:
+          - text
+          output:
+          - text
+        open_weights: true
+        source: models.dev
+      status: active
+      consecutive_failures: 0
+      latency_ms: 278
+      probe: HTTP 200
+    - id: whisper-large-v3-turbo
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities:
+        context_window: 0
+        max_output_tokens: 0
+        tool_call: false
+        reasoning: false
+        modalities:
+          input:
+          - audio
+          output:
+          - text
+        open_weights: true
+        source: models.dev
+      status: not-chat
+      consecutive_failures: 0
+      probe: skipped (non-chat model id)
+    - id: meta-llama/llama-prompt-guard-2-22m
       last_verified: '2026-10-09'
       deprecation: null
       capabilities:
@@ -22,7 +96,46 @@ lanes:
       status: not-chat
       consecutive_failures: 0
       probe: skipped (non-chat model id)
-    - id: canopylabs/orpheus-arabic-saudi
+    - id: openai/gpt-oss-120b
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities:
+        context_window: 131072
+        max_output_tokens: 65536
+        tool_call: true
+        reasoning: true
+        modalities:
+          input:
+          - text
+          output:
+          - text
+        open_weights: true
+        source: models.dev
+      status: active
+      consecutive_failures: 0
+      latency_ms: 109
+      probe: HTTP 200
+    - id: qwen/qwen3.8-27b
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities:
+        context_window: 131042
+        max_output_tokens: 16384
+        tool_call: true
+        reasoning: true
+        modalities:
+          input:
+          - text
+          - image
+          output:
+          - text
+        open_weights: true
+        source: models.dev
+      status: active
+      consecutive_failures: 0
+      latency_ms: 99
+      probe: HTTP 200
+    - id: canopylabs/orpheus-v1-english
       last_verified: '2026-10-09'
       deprecation: null
       capabilities:
@@ -58,137 +171,6 @@ lanes:
       status: not-chat
       consecutive_failures: 0
       probe: skipped (non-chat model id)
-    - id: canopylabs/orpheus-v1-english
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities:
-        context_window: 4000
-        max_output_tokens: 50000
-        tool_call: false
-        reasoning: false
-        modalities:
-          input:
-          - text
-          output:
-          - audio
-        open_weights: false
-        source: models.dev
-      status: not-chat
-      consecutive_failures: 0
-      probe: HTTP 400 (not a chat model)
-    - id: openai/gpt-oss-20b
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities:
-        context_window: 131072
-        max_output_tokens: 65536
-        tool_call: true
-        reasoning: true
-        modalities:
-          input:
-          - text
-          output:
-          - text
-        open_weights: true
-        source: models.dev
-      status: active
-      consecutive_failures: 0
-      latency_ms: 289
-      probe: HTTP 200
-    - id: qwen/qwen3.8-27b
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities:
-        context_window: 131042
-        max_output_tokens: 16384
-        tool_call: true
-        reasoning: true
-        modalities:
-          input:
-          - text
-          - image
-          output:
-          - text
-        open_weights: true
-        source: models.dev
-      status: active
-      consecutive_failures: 0
-      latency_ms: 115
-      probe: HTTP 200
-    - id: openai/gpt-oss-120b
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities:
-        context_window: 131072
-        max_output_tokens: 65536
-        tool_call: true
-        reasoning: true
-        modalities:
-          input:
-          - text
-          output:
-          - text
-        open_weights: true
-        source: models.dev
-      status: active
-      consecutive_failures: 0
-      latency_ms: 239
-      probe: HTTP 200
-    - id: allam-2-7b
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities:
-        context_window: 4096
-        max_output_tokens: 4096
-        tool_call: false
-        reasoning: false
-        modalities:
-          input:
-          - text
-          output:
-          - text
-        open_weights: true
-        source: models.dev
-      status: active
-      consecutive_failures: 0
-      latency_ms: 258
-      probe: HTTP 200
-    - id: meta-llama/llama-prompt-guard-2-22m
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities:
-        context_window: 512
-        max_output_tokens: 512
-        tool_call: false
-        reasoning: false
-        modalities:
-          input:
-          - text
-          output:
-          - text
-        open_weights: true
-        source: models.dev
-      status: not-chat
-      consecutive_failures: 0
-      probe: skipped (non-chat model id)
-    - id: whisper-large-v3-turbo
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities:
-        context_window: 0
-        max_output_tokens: 0
-        tool_call: false
-        reasoning: false
-        modalities:
-          input:
-          - audio
-          output:
-          - text
-        open_weights: true
-        source: models.dev
-      status: not-chat
-      consecutive_failures: 0
-      probe: skipped (non-chat model id)
     - id: openai/gpt-oss-safeguard-20b
       last_verified: '2026-10-09'
       deprecation: null
@@ -207,6 +189,34 @@ lanes:
       status: not-chat
       consecutive_failures: 0
       probe: skipped (non-chat model id)
+    - id: meta-llama/llama-prompt-guard-2-86m
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities:
+        context_window: 512
+        max_output_tokens: 512
+        tool_call: false
+        reasoning: false
+        modalities:
+          input:
+          - text
+          output:
+          - text
+        open_weights: true
+        source: models.dev
+      status: not-chat
+      consecutive_failures: 0
+      probe: skipped (non-chat model id)
+    quota:
+      source: response-headers
+      checked_at: '2026-10-09T05:17:51Z'
+      headers:
+        x-ratelimit-limit-requests: '1000'
+        x-ratelimit-limit-tokens: '8000'
+        x-ratelimit-remaining-requests: '999'
+        x-ratelimit-remaining-tokens: '7982'
+        x-ratelimit-reset-requests: 1m26.4s
+        x-ratelimit-reset-tokens: 134ms
   nvidia:
     catalog_count: 80
     catalog_error: null
@@ -329,7 +339,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 523
+      latency_ms: 629
       probe: HTTP 200
     - id: google/gemma-2b
       last_verified: '2026-10-09'
@@ -466,7 +476,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 1202
+      latency_ms: 16249
       probe: HTTP 200
     - id: meta/llama-3.2-90b-vision-instruct
       last_verified: '2026-10-09'
@@ -486,7 +496,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 872
+      latency_ms: 4644
       probe: HTTP 200
     - id: meta/llama-guard-4-12b
       last_verified: '2026-10-09'
@@ -533,7 +543,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 4751
+      latency_ms: 2193
       probe: HTTP 200
     - id: microsoft/kosmos-2
       last_verified: '2026-10-09'
@@ -662,7 +672,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 518
+      latency_ms: 789
       probe: HTTP 200
     - id: nv-mistralai/mistral-nemo-12b-instruct
       last_verified: '2026-10-09'
@@ -712,10 +722,10 @@ lanes:
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
-      status: active
-      consecutive_failures: 0
-      latency_ms: 227
-      probe: HTTP 200
+      status: dead
+      consecutive_failures: 1
+      latency_ms: null
+      probe: HTTP -1
     - id: nvidia/llama-3.1-nemoguard-8b-content-safety
       last_verified: '2026-10-09'
       deprecation: null
@@ -870,7 +880,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 4505
+      latency_ms: 1038
       probe: HTTP 200
     - id: nvidia/nemotron-3-super-120b-a12b
       last_verified: '2026-10-09'
@@ -889,7 +899,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 2041
+      latency_ms: 286
       probe: HTTP 200
     - id: nvidia/nemotron-3-ultra-550b-a55b
       last_verified: '2026-10-09'
@@ -908,7 +918,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 1673
+      latency_ms: 782
       probe: HTTP 200
     - id: nvidia/nemotron-3.5-content-safety
       last_verified: '2026-10-09'
@@ -946,7 +956,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 2053
+      latency_ms: 314
       probe: HTTP 200
     - id: nvidia/nemotron-4-340b-instruct
       last_verified: '2026-10-09'
@@ -983,10 +993,10 @@ lanes:
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
-      status: active
-      consecutive_failures: 0
-      latency_ms: 213
-      probe: HTTP 200
+      status: dead
+      consecutive_failures: 1
+      latency_ms: null
+      probe: HTTP 502
     - id: nvidia/neva-22b
       last_verified: '2026-10-09'
       deprecation: null
@@ -1033,10 +1043,10 @@ lanes:
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
-      status: dead
-      consecutive_failures: 1
-      latency_ms: null
-      probe: HTTP -1
+      status: active
+      consecutive_failures: 0
+      latency_ms: 3542
+      probe: HTTP 200
     - id: nvidia/vila
       last_verified: '2026-10-09'
       deprecation: null
@@ -1062,7 +1072,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 637
+      latency_ms: 513
       probe: HTTP 200
     - id: poolside/laguna-xs-2.1
       last_verified: '2026-10-09'
@@ -1079,10 +1089,10 @@ lanes:
           - text
         open_weights: true
         source: models.dev
-      status: dead
-      consecutive_failures: 1
-      latency_ms: null
-      probe: HTTP -1
+      status: active
+      consecutive_failures: 0
+      latency_ms: 3976
+      probe: HTTP 200
     - id: snowflake/arctic-embed-l
       last_verified: '2026-10-09'
       deprecation: null
@@ -1139,7 +1149,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 281
+      latency_ms: 2005
       probe: HTTP 200
     - id: z-ai/glm-5.3-flash
       last_verified: '2026-10-09'
@@ -1159,10 +1169,10 @@ lanes:
           - text
         open_weights: true
         source: models.dev
-      status: dead
-      consecutive_failures: 1
-      latency_ms: null
-      probe: HTTP -1
+      status: active
+      consecutive_failures: 0
+      latency_ms: 5547
+      probe: HTTP 200
     - id: zyphra/zamba2-7b-instruct
       last_verified: '2026-10-09'
       deprecation: null
@@ -1171,6 +1181,10 @@ lanes:
       consecutive_failures: 1
       latency_ms: null
       probe: HTTP 404
+    quota:
+      source: none
+      checked_at: '2026-10-09T05:17:51Z'
+      note: no quota API; dashboard only
   mistral:
     catalog_count: 46
     catalog_error: null
@@ -1192,7 +1206,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 354
+      latency_ms: 393
       probe: HTTP 200
     - id: codestral-latest
       last_verified: '2026-10-09'
@@ -1211,7 +1225,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 316
+      latency_ms: 361
       probe: HTTP 200
     - id: mistral-code-latest
       last_verified: '2026-10-09'
@@ -1219,7 +1233,7 @@ lanes:
       capabilities: null
       status: active
       consecutive_failures: 0
-      latency_ms: 295
+      latency_ms: 464
       probe: HTTP 200
     - id: mistral-code-fim-latest
       last_verified: '2026-10-09'
@@ -1227,7 +1241,7 @@ lanes:
       capabilities: null
       status: active
       consecutive_failures: 0
-      latency_ms: 364
+      latency_ms: 392
       probe: HTTP 200
     - id: labs-leanstral-1-5-1
       last_verified: '2026-10-09'
@@ -1290,7 +1304,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 771
+      latency_ms: 1051
       probe: HTTP 200
     - id: ministral-14b-latest
       last_verified: '2026-10-09'
@@ -1298,7 +1312,7 @@ lanes:
       capabilities: null
       status: active
       consecutive_failures: 0
-      latency_ms: 345
+      latency_ms: 463
       probe: HTTP 200
     - id: ministral-3b-2512
       last_verified: '2026-10-09'
@@ -1318,7 +1332,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 295
+      latency_ms: 376
       probe: HTTP 200
     - id: ministral-3b-latest
       last_verified: '2026-10-09'
@@ -1338,7 +1352,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 282
+      latency_ms: 294
       probe: HTTP 200
     - id: ministral-8b-2512
       last_verified: '2026-10-09'
@@ -1358,7 +1372,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 368
+      latency_ms: 342
       probe: HTTP 200
     - id: ministral-8b-latest
       last_verified: '2026-10-09'
@@ -1378,7 +1392,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 289
+      latency_ms: 381
       probe: HTTP 200
     - id: mistral-medium-latest
       last_verified: '2026-10-09'
@@ -1565,7 +1579,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 306
+      latency_ms: 431
       probe: HTTP 200
     - id: voxtral-small-latest
       last_verified: '2026-10-09'
@@ -1585,7 +1599,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 300
+      latency_ms: 379
       probe: HTTP 200
     - id: codestral-embed
       last_verified: '2026-10-09'
@@ -1770,6 +1784,15 @@ lanes:
       status: not-chat
       consecutive_failures: 0
       probe: skipped (non-chat model id)
+    quota:
+      source: response-headers
+      checked_at: '2026-10-09T05:17:51Z'
+      headers:
+        x-ratelimit-limit-tokens-minute: '50000'
+        x-ratelimit-remaining-tokens-minute: '49982'
+        x-ratelimit-tokens-query-cost: '9'
+        x-ratelimit-limit-req-minute: '60'
+        x-ratelimit-remaining-req-minute: '58'
   zai:
     catalog_count: null
     catalog_error: null
@@ -1791,7 +1814,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 1252
+      latency_ms: 1260
       probe: HTTP 200
     - id: glm-4.5-flash
       last_verified: '2026-10-09'
@@ -1810,7 +1833,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 873
+      latency_ms: 747
       probe: HTTP 200
     - id: glm-4.6v-flash
       last_verified: '2026-10-09'
@@ -1829,54 +1852,35 @@ lanes:
           - text
         open_weights: true
         source: models.dev
-      status: rate-limited
+      status: active
       consecutive_failures: 0
-      probe: HTTP 429
+      latency_ms: 740
+      probe: HTTP 200
+    quota:
+      source: none
+      checked_at: '2026-10-09T05:17:51Z'
+      note: no quota API; console only
   ollama:
     catalog_count: 18
     catalog_error: null
     models:
-    - id: kimi-k2.7-code
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities:
-        context_window: 262144
-        max_output_tokens: null
-        knowledge_cutoff: null
-        open_weights: true
-        source: aimodelwatch
-      status: dead
-      consecutive_failures: 1
-      latency_ms: null
-      probe: HTTP 402
     - id: gpt-oss:20b
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
       status: active
       consecutive_failures: 0
-      latency_ms: 1680
+      latency_ms: 506
       probe: HTTP 200
-    - id: glm-5.3
+    - id: deepseek-v4-pro:0813
       last_verified: '2026-10-09'
       deprecation: null
-      capabilities: null
-      status: dead
-      consecutive_failures: 1
-      latency_ms: null
-      probe: HTTP 402
-    - id: deepseek-v4.1-flash
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities: null
-      status: dead
-      consecutive_failures: 1
-      latency_ms: null
-      probe: HTTP 402
-    - id: minimax-m2.7
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities: null
+      capabilities:
+        context_window: 1000000
+        max_output_tokens: 384000
+        knowledge_cutoff: null
+        open_weights: true
+        source: aimodelwatch
       status: dead
       consecutive_failures: 1
       latency_ms: null
@@ -1889,67 +1893,59 @@ lanes:
       consecutive_failures: 1
       latency_ms: null
       probe: HTTP 403
+    - id: minimax-m2.7
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities: null
+      status: dead
+      consecutive_failures: 1
+      latency_ms: null
+      probe: HTTP 402
     - id: gemma4:31b
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
       status: active
       consecutive_failures: 0
-      latency_ms: 438
+      latency_ms: 419
       probe: HTTP 200
-    - id: kimi-k2.6
+    - id: glm-5.3
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities: null
+      status: dead
+      consecutive_failures: 1
+      latency_ms: null
+      probe: HTTP 402
+    - id: kimi-k3
       last_verified: '2026-10-09'
       deprecation: null
       capabilities:
-        context_window: 262144
+        context_window: 1048576
         max_output_tokens: null
         knowledge_cutoff: null
-        open_weights: true
+        open_weights: false
         source: aimodelwatch
       status: dead
       consecutive_failures: 1
       latency_ms: null
       probe: HTTP 402
-    - id: minimax-m3
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities: null
-      status: dead
-      consecutive_failures: 1
-      latency_ms: null
-      probe: HTTP 402
-    - id: nemotron-3-ultra
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities: null
-      status: active
-      consecutive_failures: 0
-      latency_ms: 3815
-      probe: HTTP 200
-    - id: gpt-oss:120b
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities: null
-      status: active
-      consecutive_failures: 0
-      latency_ms: 426
-      probe: HTTP 200
     - id: nemotron-3-nano:30b
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
       status: active
       consecutive_failures: 0
-      latency_ms: 337
+      latency_ms: 705
       probe: HTTP 200
-    - id: mistral-large-3:675b
+    - id: nemotron-3-super
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
-      status: dead
-      consecutive_failures: 1
-      latency_ms: null
-      probe: HTTP 402
+      status: active
+      consecutive_failures: 0
+      latency_ms: 547
+      probe: HTTP 200
     - id: glm-5.2
       last_verified: '2026-10-09'
       deprecation: null
@@ -1966,12 +1962,52 @@ lanes:
       consecutive_failures: 1
       latency_ms: null
       probe: HTTP 402
-    - id: deepseek-v4-pro:0813
+    - id: deepseek-v4.1-flash
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities: null
+      status: dead
+      consecutive_failures: 1
+      latency_ms: null
+      probe: HTTP 402
+    - id: minimax-m3
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities: null
+      status: dead
+      consecutive_failures: 1
+      latency_ms: null
+      probe: HTTP 402
+    - id: mistral-large-3:675b
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities: null
+      status: dead
+      consecutive_failures: 1
+      latency_ms: null
+      probe: HTTP 402
+    - id: gpt-oss:120b
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities: null
+      status: active
+      consecutive_failures: 0
+      latency_ms: 417
+      probe: HTTP 200
+    - id: nemotron-3-ultra
+      last_verified: '2026-10-09'
+      deprecation: null
+      capabilities: null
+      status: active
+      consecutive_failures: 0
+      latency_ms: 1947
+      probe: HTTP 200
+    - id: kimi-k2.6
       last_verified: '2026-10-09'
       deprecation: null
       capabilities:
-        context_window: 1000000
-        max_output_tokens: 384000
+        context_window: 262144
+        max_output_tokens: null
         knowledge_cutoff: null
         open_weights: true
         source: aimodelwatch
@@ -1979,27 +2015,23 @@ lanes:
       consecutive_failures: 1
       latency_ms: null
       probe: HTTP 402
-    - id: nemotron-3-super
-      last_verified: '2026-10-09'
-      deprecation: null
-      capabilities: null
-      status: active
-      consecutive_failures: 0
-      latency_ms: 579
-      probe: HTTP 200
-    - id: kimi-k3
+    - id: kimi-k2.7-code
       last_verified: '2026-10-09'
       deprecation: null
       capabilities:
-        context_window: 1048576
+        context_window: 262144
         max_output_tokens: null
         knowledge_cutoff: null
-        open_weights: false
+        open_weights: true
         source: aimodelwatch
       status: dead
       consecutive_failures: 1
       latency_ms: null
       probe: HTTP 402
+    quota:
+      source: none
+      checked_at: '2026-10-09T05:17:51Z'
+      note: no quota API; settings page only
   cohere:
     catalog_count: 35
     catalog_error: null
@@ -2025,8 +2057,12 @@ lanes:
         source: models.dev
       status: deprecated
       consecutive_failures: 0
-      latency_ms: 239
+      latency_ms: 226
       probe: HTTP 200
+    quota:
+      source: none
+      checked_at: '2026-10-09T05:17:51Z'
+      note: no documented quota endpoint
   openrouter:
     catalog_count: 469
     catalog_error: null
@@ -2048,7 +2084,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 679
+      latency_ms: 728
       probe: HTTP 200
     - id: dots-studio/dots-3-note-preview:free
       last_verified: '2026-10-09'
@@ -2068,7 +2104,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 12004
+      latency_ms: 824
       probe: HTTP 200
     - id: liquid/lfm-2.5-2.6b:free
       last_verified: '2026-10-09'
@@ -2205,7 +2241,7 @@ lanes:
         source: models.dev
       status: active
       consecutive_failures: 0
-      latency_ms: 5972
+      latency_ms: 222
       probe: HTTP 200
     - id: nvidia/nemotron-3.5-content-safety:free
       last_verified: '2026-10-09'
@@ -2326,6 +2362,13 @@ lanes:
       consecutive_failures: 1
       latency_ms: null
       probe: HTTP 404
+    quota:
+      source: key-endpoint
+      checked_at: '2026-10-09T05:17:51Z'
+      limit: 100
+      limit_remaining: 100
+      usage_daily: 0
+      is_free_tier: true
   llm7:
     catalog_count: 64
     catalog_error: null
@@ -2348,7 +2391,7 @@ lanes:
       probe: skipped (retired per aimodelwatch)
       shadow_probe:
         http_status: 200
-        latency_ms: 202
+        latency_ms: 354
         inferred_status: active
         feed_accurate: false
         disagreement_days: 1
@@ -2364,26 +2407,23 @@ lanes:
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
-      status: active
+      status: rate-limited
       consecutive_failures: 0
-      latency_ms: 1351
-      probe: HTTP 200
+      probe: HTTP 429
     - id: gemma4:31b
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
-      status: active
+      status: rate-limited
       consecutive_failures: 0
-      latency_ms: 210
-      probe: HTTP 200
+      probe: HTTP 429
     - id: glm-5.2
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
-      status: active
+      status: rate-limited
       consecutive_failures: 0
-      latency_ms: 819
-      probe: HTTP 200
+      probe: HTTP 429
     - id: gpt-oss:20b
       last_verified: '2026-10-09'
       deprecation: null
@@ -2402,18 +2442,16 @@ lanes:
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
-      status: active
+      status: rate-limited
       consecutive_failures: 0
-      latency_ms: 3319
-      probe: HTTP 200
+      probe: HTTP 429
     - id: mistral-Nemo-Instruct-2407
       last_verified: '2026-10-09'
       deprecation: null
       capabilities: null
-      status: active
+      status: rate-limited
       consecutive_failures: 0
-      latency_ms: 650
-      probe: HTTP 200
+      probe: HTTP 429
     - id: nemotron-3-nano:30b
       last_verified: '2026-10-09'
       deprecation: null
@@ -2421,3 +2459,8 @@ lanes:
       status: rate-limited
       consecutive_failures: 0
       probe: HTTP 429
+    quota:
+      source: response-headers
+      checked_at: '2026-10-09T05:17:51Z'
+      headers:
+        retry-after: '10'
