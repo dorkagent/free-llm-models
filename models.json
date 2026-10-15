@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T14:29:34Z",
+  "generated_at": "2026-10-15T14:31:05Z",
   "lanes": {
     "groq": {
       "catalog_count": 11,
@@ -7,7 +7,7 @@
       "models": [
         {
           "id": "meta-llama/llama-prompt-guard-2-22m",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 512,
@@ -30,14 +30,14 @@
           "probe": "skipped (non-chat model id)"
         },
         {
-          "id": "openai/gpt-oss-120b",
-          "last_verified": "2026-10-14",
+          "id": "meta-llama/llama-prompt-guard-2-86m",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
-            "context_window": 131072,
-            "max_output_tokens": 65536,
-            "tool_call": true,
-            "reasoning": true,
+            "context_window": 512,
+            "max_output_tokens": 512,
+            "tool_call": false,
+            "reasoning": false,
             "modalities": {
               "input": [
                 "text"
@@ -49,40 +49,13 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "active",
+          "status": "not-chat",
           "consecutive_failures": 0,
-          "latency_ms": 272,
-          "probe": "HTTP 200"
-        },
-        {
-          "id": "qwen/qwen3.8-27b",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": {
-            "context_window": 131042,
-            "max_output_tokens": 16384,
-            "tool_call": true,
-            "reasoning": true,
-            "modalities": {
-              "input": [
-                "text",
-                "image"
-              ],
-              "output": [
-                "text"
-              ]
-            },
-            "open_weights": true,
-            "source": "models.dev"
-          },
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 121,
-          "probe": "HTTP 200"
+          "probe": "skipped (non-chat model id)"
         },
         {
           "id": "openai/gpt-oss-safeguard-20b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 131072,
@@ -106,7 +79,7 @@
         },
         {
           "id": "allam-2-7b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 4096,
@@ -126,12 +99,62 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 677,
+          "latency_ms": 343,
           "probe": "HTTP 200"
         },
         {
+          "id": "qwen/qwen3.8-27b",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 131042,
+            "max_output_tokens": 16384,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 100,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "canopylabs/orpheus-v1-english",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 4000,
+            "max_output_tokens": 50000,
+            "tool_call": false,
+            "reasoning": false,
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "audio"
+              ]
+            },
+            "open_weights": false,
+            "source": "models.dev"
+          },
+          "status": "not-chat",
+          "consecutive_failures": 0,
+          "probe": "HTTP 400 (not a chat model)"
+        },
+        {
           "id": "whisper-large-v3",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 0,
@@ -155,7 +178,7 @@
         },
         {
           "id": "whisper-large-v3-turbo",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 0,
@@ -178,14 +201,14 @@
           "probe": "skipped (non-chat model id)"
         },
         {
-          "id": "meta-llama/llama-prompt-guard-2-86m",
-          "last_verified": "2026-10-14",
+          "id": "openai/gpt-oss-120b",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
-            "context_window": 512,
-            "max_output_tokens": 512,
-            "tool_call": false,
-            "reasoning": false,
+            "context_window": 131072,
+            "max_output_tokens": 65536,
+            "tool_call": true,
+            "reasoning": true,
             "modalities": {
               "input": [
                 "text"
@@ -197,13 +220,14 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "not-chat",
+          "status": "active",
           "consecutive_failures": 0,
-          "probe": "skipped (non-chat model id)"
+          "latency_ms": 201,
+          "probe": "HTTP 200"
         },
         {
-          "id": "canopylabs/orpheus-v1-english",
-          "last_verified": "2026-10-14",
+          "id": "canopylabs/orpheus-arabic-saudi",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 4000,
@@ -227,7 +251,7 @@
         },
         {
           "id": "openai/gpt-oss-20b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 131072,
@@ -247,37 +271,13 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 131,
+          "latency_ms": 177,
           "probe": "HTTP 200"
-        },
-        {
-          "id": "canopylabs/orpheus-arabic-saudi",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": {
-            "context_window": 4000,
-            "max_output_tokens": 50000,
-            "tool_call": false,
-            "reasoning": false,
-            "modalities": {
-              "input": [
-                "text"
-              ],
-              "output": [
-                "audio"
-              ]
-            },
-            "open_weights": false,
-            "source": "models.dev"
-          },
-          "status": "not-chat",
-          "consecutive_failures": 0,
-          "probe": "HTTP 400 (not a chat model)"
         }
       ],
       "quota": {
         "source": "response-headers",
-        "checked_at": "2026-10-14T14:29:34Z",
+        "checked_at": "2026-10-15T14:31:05Z",
         "headers": {
           "x-ratelimit-limit-requests": "1000",
           "x-ratelimit-limit-tokens": "8000",
@@ -289,12 +289,12 @@
       }
     },
     "nvidia": {
-      "catalog_count": 80,
+      "catalog_count": 81,
       "catalog_error": null,
       "models": [
         {
           "id": "01-ai/yi-large",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -304,7 +304,7 @@
         },
         {
           "id": "adept/fuyu-8b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -314,7 +314,7 @@
         },
         {
           "id": "ai21labs/jamba-1.5-large-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -324,7 +324,7 @@
         },
         {
           "id": "aisingapore/sea-lion-7b-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -334,7 +334,7 @@
         },
         {
           "id": "bigcode/starcoder2-15b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -344,7 +344,7 @@
         },
         {
           "id": "databricks/dbrx-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -354,7 +354,7 @@
         },
         {
           "id": "deepseek-ai/deepseek-coder-6.7b-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -364,7 +364,7 @@
         },
         {
           "id": "deepseek-ai/deepseek-v4.1-flash",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 1000000,
@@ -390,7 +390,7 @@
         },
         {
           "id": "google/codegemma-1.1-7b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -400,7 +400,7 @@
         },
         {
           "id": "google/codegemma-7b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -410,7 +410,7 @@
         },
         {
           "id": "google/deplot",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -420,7 +420,7 @@
         },
         {
           "id": "google/diffusiongemma-26b-a4b-it",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 250000,
@@ -441,12 +441,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 331,
+          "latency_ms": 405,
           "probe": "HTTP 200"
         },
         {
           "id": "google/gemma-2b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -456,7 +456,7 @@
         },
         {
           "id": "google/gemma-3-12b-it",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 131072,
@@ -482,7 +482,7 @@
         },
         {
           "id": "google/gemma-3-4b-it",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 131072,
@@ -508,7 +508,7 @@
         },
         {
           "id": "google/gemma-4-31b-it",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 256000,
@@ -528,14 +528,14 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP -1"
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 1536,
+          "probe": "HTTP 200"
         },
         {
           "id": "google/recurrentgemma-2b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -545,7 +545,7 @@
         },
         {
           "id": "ibm/granite-3.0-3b-a800m-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -555,7 +555,7 @@
         },
         {
           "id": "ibm/granite-3.0-8b-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -565,7 +565,7 @@
         },
         {
           "id": "ibm/granite-34b-code-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -575,7 +575,7 @@
         },
         {
           "id": "ibm/granite-8b-code-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -585,7 +585,7 @@
         },
         {
           "id": "meta/codellama-70b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -595,7 +595,7 @@
         },
         {
           "id": "meta/llama-3.2-11b-vision-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 128000,
@@ -616,12 +616,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 374,
+          "latency_ms": 438,
           "probe": "HTTP 200"
         },
         {
           "id": "meta/llama-3.2-90b-vision-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 128000,
@@ -642,12 +642,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 11998,
+          "latency_ms": 1436,
           "probe": "HTTP 200"
         },
         {
           "id": "meta/llama-guard-4-12b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 128000,
@@ -672,7 +672,7 @@
         },
         {
           "id": "meta/llama2-70b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -682,7 +682,7 @@
         },
         {
           "id": "meta/muse-glimmer-30b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 131072,
@@ -703,12 +703,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 2987,
+          "latency_ms": 827,
           "probe": "HTTP 200"
         },
         {
           "id": "microsoft/kosmos-2",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -718,7 +718,7 @@
         },
         {
           "id": "microsoft/phi-3-vision-128k-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -728,7 +728,7 @@
         },
         {
           "id": "microsoft/phi-3.5-moe-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -738,7 +738,7 @@
         },
         {
           "id": "mistralai/codestral-22b-instruct-v0.1",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -748,7 +748,7 @@
         },
         {
           "id": "mistralai/mistral-7b-instruct-v0.3",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 65536,
@@ -773,7 +773,7 @@
         },
         {
           "id": "mistralai/mistral-large",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -799,7 +799,7 @@
         },
         {
           "id": "mistralai/mistral-large-2-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -809,7 +809,7 @@
         },
         {
           "id": "mistralai/mixtral-8x22b-v0.1",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -819,7 +819,7 @@
         },
         {
           "id": "moonshotai/kimi-k2.6",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -845,35 +845,8 @@
           "probe": "HTTP 404"
         },
         {
-          "id": "moonshotai/kimi-k3",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": {
-            "context_window": 1048576,
-            "max_output_tokens": 131072,
-            "tool_call": true,
-            "reasoning": true,
-            "modalities": {
-              "input": [
-                "text",
-                "image",
-                "video"
-              ],
-              "output": [
-                "text"
-              ]
-            },
-            "open_weights": true,
-            "source": "models.dev"
-          },
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP -1"
-        },
-        {
           "id": "nv-mistralai/mistral-nemo-12b-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -883,7 +856,7 @@
         },
         {
           "id": "nvidia/ai-synthetic-video-detector",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -893,7 +866,7 @@
         },
         {
           "id": "nvidia/cosmos-reason2-8b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 131072,
@@ -920,7 +893,7 @@
         },
         {
           "id": "nvidia/embed-qa-4",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -929,17 +902,17 @@
         },
         {
           "id": "nvidia/ising-calibration-1.5-31b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP -1"
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 408,
+          "probe": "HTTP 200"
         },
         {
           "id": "nvidia/llama-3.1-nemoguard-8b-content-safety",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -948,7 +921,7 @@
         },
         {
           "id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -957,7 +930,7 @@
         },
         {
           "id": "nvidia/llama-3.1-nemotron-51b-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -967,7 +940,7 @@
         },
         {
           "id": "nvidia/llama-3.1-nemotron-70b-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 128000,
@@ -992,7 +965,7 @@
         },
         {
           "id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 128000,
@@ -1016,7 +989,7 @@
         },
         {
           "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 128000,
@@ -1041,7 +1014,7 @@
         },
         {
           "id": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -1050,7 +1023,7 @@
         },
         {
           "id": "nvidia/llama-3.2-nv-embedqa-1b-v1",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -1059,7 +1032,7 @@
         },
         {
           "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 32768,
@@ -1084,7 +1057,7 @@
         },
         {
           "id": "nvidia/llama3-chatqa-1.5-70b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1094,7 +1067,7 @@
         },
         {
           "id": "nvidia/mistral-nemo-minitron-8b-8k-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1104,7 +1077,7 @@
         },
         {
           "id": "nvidia/nemotron-3-embed-1b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -1113,7 +1086,7 @@
         },
         {
           "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 256000,
@@ -1134,39 +1107,24 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 956,
-          "probe": "HTTP 200"
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 503"
         },
         {
           "id": "nvidia/nemotron-3-super-120b-a12b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
-          "capabilities": {
-            "context_window": 262144,
-            "max_output_tokens": 262144,
-            "tool_call": true,
-            "reasoning": true,
-            "modalities": {
-              "input": [
-                "text"
-              ],
-              "output": [
-                "text"
-              ]
-            },
-            "open_weights": true,
-            "source": "models.dev"
-          },
+          "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 453,
+          "latency_ms": 362,
           "probe": "HTTP 200"
         },
         {
           "id": "nvidia/nemotron-3-ultra-550b-a55b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 1000000,
@@ -1186,12 +1144,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 1815,
+          "latency_ms": 663,
           "probe": "HTTP 200"
         },
         {
           "id": "nvidia/nemotron-3.5-content-safety",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 128000,
@@ -1216,7 +1174,7 @@
         },
         {
           "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -1236,12 +1194,39 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 309,
+          "latency_ms": 362,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": {
+            "context_window": 1048576,
+            "max_output_tokens": 8192,
+            "tool_call": true,
+            "reasoning": true,
+            "modalities": {
+              "input": [
+                "text",
+                "image",
+                "video"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "source": "models.dev"
+          },
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 246,
           "probe": "HTTP 200"
         },
         {
           "id": "nvidia/nemotron-4-340b-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1251,7 +1236,7 @@
         },
         {
           "id": "nvidia/nemotron-4-340b-reward",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1261,7 +1246,7 @@
         },
         {
           "id": "nvidia/nemotron-nano-3-30b-a3b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1271,7 +1256,7 @@
         },
         {
           "id": "nvidia/nemotron-parse",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -1280,17 +1265,17 @@
         },
         {
           "id": "nvidia/nemotron-parse-2.0",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 317,
+          "latency_ms": 245,
           "probe": "HTTP 200"
         },
         {
           "id": "nvidia/neva-22b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1300,7 +1285,7 @@
         },
         {
           "id": "nvidia/nv-embedqa-mistral-7b-v2",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -1309,7 +1294,7 @@
         },
         {
           "id": "nvidia/nvclip",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1319,7 +1304,7 @@
         },
         {
           "id": "nvidia/riva-translate-4b-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 128000,
@@ -1344,17 +1329,17 @@
         },
         {
           "id": "nvidia/riva-translate-4b-instruct-v2",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 16245,
+          "latency_ms": 9335,
           "probe": "HTTP 200"
         },
         {
           "id": "nvidia/vila",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1364,7 +1349,7 @@
         },
         {
           "id": "openai/gpt-oss-20b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 131072,
@@ -1384,12 +1369,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 702,
+          "latency_ms": 218,
           "probe": "HTTP 200"
         },
         {
           "id": "poolside/laguna-xs-2.1",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -1407,14 +1392,14 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 503"
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 23528,
+          "probe": "HTTP 200"
         },
         {
           "id": "snowflake/arctic-embed-l",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -1422,8 +1407,18 @@
           "probe": "skipped (non-chat model id)"
         },
         {
+          "id": "stepfun-ai/step-5-preview",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 292,
+          "probe": "HTTP 200"
+        },
+        {
           "id": "writer/palmyra-creative-122b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1433,7 +1428,7 @@
         },
         {
           "id": "writer/palmyra-fin-70b-32k",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1443,7 +1438,7 @@
         },
         {
           "id": "writer/palmyra-med-70b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1453,7 +1448,7 @@
         },
         {
           "id": "writer/palmyra-med-70b-32k",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1463,7 +1458,7 @@
         },
         {
           "id": "z-ai/glm-5.3",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 1000000,
@@ -1488,7 +1483,7 @@
         },
         {
           "id": "z-ai/glm-5.3-flash",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 1000000,
@@ -1516,7 +1511,7 @@
         },
         {
           "id": "zyphra/zamba2-7b-instruct",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -1527,17 +1522,17 @@
       ],
       "quota": {
         "source": "none",
-        "checked_at": "2026-10-14T14:29:34Z",
+        "checked_at": "2026-10-15T14:31:05Z",
         "note": "no quota API; dashboard only"
       }
     },
     "mistral": {
-      "catalog_count": 46,
+      "catalog_count": 45,
       "catalog_error": null,
       "models": [
         {
           "id": "codestral-2508",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 256000,
@@ -1557,12 +1552,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 558,
+          "latency_ms": 1040,
           "probe": "HTTP 200"
         },
         {
           "id": "codestral-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 256000,
@@ -1587,27 +1582,27 @@
         },
         {
           "id": "mistral-code-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 4912,
+          "latency_ms": 336,
           "probe": "HTTP 200"
         },
         {
           "id": "mistral-code-fim-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 411,
+          "latency_ms": 373,
           "probe": "HTTP 200"
         },
         {
           "id": "labs-leanstral-1-5-1",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": {
             "status": "deprecated",
             "retires_on": "2026-09-30",
@@ -1638,7 +1633,7 @@
         },
         {
           "id": "labs-leanstral-1-5",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": {
             "status": "deprecated",
             "retires_on": "2026-09-30",
@@ -1669,7 +1664,7 @@
         },
         {
           "id": "ministral-14b-2512",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -1690,22 +1685,22 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 445,
+          "latency_ms": 424,
           "probe": "HTTP 200"
         },
         {
           "id": "ministral-14b-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 462,
+          "latency_ms": 652,
           "probe": "HTTP 200"
         },
         {
           "id": "ministral-3b-2512",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 131072,
@@ -1726,12 +1721,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 367,
+          "latency_ms": 400,
           "probe": "HTTP 200"
         },
         {
           "id": "ministral-3b-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 131072,
@@ -1752,12 +1747,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 413,
+          "latency_ms": 441,
           "probe": "HTTP 200"
         },
         {
           "id": "ministral-8b-2512",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -1778,12 +1773,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 518,
+          "latency_ms": 400,
           "probe": "HTTP 200"
         },
         {
           "id": "ministral-8b-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -1804,12 +1799,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 411,
+          "latency_ms": 349,
           "probe": "HTTP 200"
         },
         {
           "id": "mistral-medium-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -1834,7 +1829,7 @@
         },
         {
           "id": "mistral-medium",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": {
             "status": "deprecated",
             "retires_on": "2026-08-31",
@@ -1864,7 +1859,7 @@
         },
         {
           "id": "mistral-medium-3-5",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "rate-limited",
@@ -1873,7 +1868,7 @@
         },
         {
           "id": "mistral-medium-3.5",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "rate-limited",
@@ -1882,7 +1877,7 @@
         },
         {
           "id": "mistral-medium-3",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "rate-limited",
@@ -1891,7 +1886,7 @@
         },
         {
           "id": "mistral-medium-2604",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -1916,7 +1911,7 @@
         },
         {
           "id": "mistral-vibe-cli-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "rate-limited",
@@ -1925,7 +1920,7 @@
         },
         {
           "id": "mistral-vibe-cli-with-tools",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "rate-limited",
@@ -1934,7 +1929,7 @@
         },
         {
           "id": "magistral-medium-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -1959,7 +1954,7 @@
         },
         {
           "id": "mistral-small-2603",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -1984,7 +1979,7 @@
         },
         {
           "id": "mistral-small-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -2009,7 +2004,7 @@
         },
         {
           "id": "mistral-vibe-cli-fast",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "rate-limited",
@@ -2018,7 +2013,7 @@
         },
         {
           "id": "magistral-small-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "rate-limited",
@@ -2027,7 +2022,7 @@
         },
         {
           "id": "voxtral-small-2507",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 32768,
@@ -2048,12 +2043,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 429,
+          "latency_ms": 437,
           "probe": "HTTP 200"
         },
         {
           "id": "voxtral-small-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 32768,
@@ -2074,12 +2069,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 466,
+          "latency_ms": 375,
           "probe": "HTTP 200"
         },
         {
           "id": "codestral-embed",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 8192,
@@ -2094,7 +2089,7 @@
         },
         {
           "id": "codestral-embed-2505",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 8192,
@@ -2109,7 +2104,7 @@
         },
         {
           "id": "mistral-embed-2312",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 8000,
@@ -2133,7 +2128,7 @@
         },
         {
           "id": "mistral-embed",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 8000,
@@ -2157,7 +2152,7 @@
         },
         {
           "id": "mistral-moderation-2603",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2166,7 +2161,7 @@
         },
         {
           "id": "mistral-ocr-2512",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2175,7 +2170,7 @@
         },
         {
           "id": "mistral-ocr-3-0",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2184,16 +2179,7 @@
         },
         {
           "id": "mistral-ocr-3",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "not-chat",
-          "consecutive_failures": 0,
-          "probe": "HTTP 400 (not a chat model)"
-        },
-        {
-          "id": "mistral-ocr-4-0",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2202,7 +2188,7 @@
         },
         {
           "id": "mistral-ocr-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2211,7 +2197,7 @@
         },
         {
           "id": "mistral-ocr-4",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2220,7 +2206,7 @@
         },
         {
           "id": "mistral-ocr-4-1",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2229,7 +2215,7 @@
         },
         {
           "id": "voxtral-mini-2602",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2238,7 +2224,7 @@
         },
         {
           "id": "voxtral-mini-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 0,
@@ -2262,7 +2248,7 @@
         },
         {
           "id": "voxtral-mini-transcribe-realtime-2602",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2271,7 +2257,7 @@
         },
         {
           "id": "voxtral-mini-realtime-2602",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2280,7 +2266,7 @@
         },
         {
           "id": "voxtral-mini-realtime-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2289,7 +2275,7 @@
         },
         {
           "id": "voxtral-mini-tts-2603",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "not-chat",
@@ -2298,7 +2284,7 @@
         },
         {
           "id": "voxtral-mini-tts-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 0,
@@ -2323,7 +2309,7 @@
       ],
       "quota": {
         "source": "response-headers",
-        "checked_at": "2026-10-14T14:29:34Z",
+        "checked_at": "2026-10-15T14:31:05Z",
         "headers": {
           "x-ratelimit-limit-tokens-minute": "50000",
           "x-ratelimit-remaining-tokens-minute": "49982",
@@ -2339,7 +2325,7 @@
       "models": [
         {
           "id": "glm-4.7-flash",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 200000,
@@ -2357,14 +2343,13 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP -1"
+          "status": "rate-limited",
+          "consecutive_failures": 0,
+          "probe": "HTTP 429"
         },
         {
           "id": "glm-4.5-flash",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 131072,
@@ -2382,14 +2367,14 @@
             "open_weights": true,
             "source": "models.dev"
           },
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP -1"
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 10348,
+          "probe": "HTTP 200"
         },
         {
           "id": "glm-4.6v-flash",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 128000,
@@ -2416,7 +2401,7 @@
       ],
       "quota": {
         "source": "none",
-        "checked_at": "2026-10-14T14:29:34Z",
+        "checked_at": "2026-10-15T14:31:05Z",
         "note": "no quota API; console only"
       }
     },
@@ -2425,8 +2410,18 @@
       "catalog_error": null,
       "models": [
         {
-          "id": "kimi-k2.6",
-          "last_verified": "2026-10-14",
+          "id": "mistral-large-4",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 403"
+        },
+        {
+          "id": "kimi-k2.7-code",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -2441,84 +2436,8 @@
           "probe": "HTTP 402"
         },
         {
-          "id": "kimi-k3",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": {
-            "context_window": 1048576,
-            "max_output_tokens": null,
-            "knowledge_cutoff": null,
-            "open_weights": false,
-            "source": "aimodelwatch"
-          },
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
-        },
-        {
-          "id": "gpt-oss:120b",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 360,
-          "probe": "HTTP 200"
-        },
-        {
-          "id": "nemotron-3-nano:30b",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 446,
-          "probe": "HTTP 200"
-        },
-        {
-          "id": "glm-5.3",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
-        },
-        {
-          "id": "minimax-m3",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
-        },
-        {
-          "id": "nemotron-3-ultra",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 2304,
-          "probe": "HTTP 200"
-        },
-        {
-          "id": "glm-5.3-flash",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 402"
-        },
-        {
           "id": "deepseek-v4-pro:0813",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 1000000,
@@ -2533,8 +2452,38 @@
           "probe": "HTTP 402"
         },
         {
-          "id": "minimax-m2.7",
-          "last_verified": "2026-10-14",
+          "id": "gpt-oss:20b",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 503,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nemotron-3-super",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 1370,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "nemotron-3-ultra",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 3368,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "glm-5.2",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -2543,20 +2492,16 @@
           "probe": "HTTP 402"
         },
         {
-          "id": "mistral-large-4",
-          "last_verified": "2026-10-14",
+          "id": "kimi-k3",
+          "last_verified": "2026-10-15",
           "deprecation": null,
-          "capabilities": null,
-          "status": "dead",
-          "consecutive_failures": 1,
-          "latency_ms": null,
-          "probe": "HTTP 403"
-        },
-        {
-          "id": "mistral-large-3:675b",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": null,
+          "capabilities": {
+            "context_window": 1048576,
+            "max_output_tokens": null,
+            "knowledge_cutoff": null,
+            "open_weights": false,
+            "source": "aimodelwatch"
+          },
           "status": "dead",
           "consecutive_failures": 1,
           "latency_ms": null,
@@ -2564,7 +2509,7 @@
         },
         {
           "id": "deepseek-v4.1-flash",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -2573,28 +2518,8 @@
           "probe": "HTTP 402"
         },
         {
-          "id": "gpt-oss:20b",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 515,
-          "probe": "HTTP 200"
-        },
-        {
-          "id": "nemotron-3-super",
-          "last_verified": "2026-10-14",
-          "deprecation": null,
-          "capabilities": null,
-          "status": "active",
-          "consecutive_failures": 0,
-          "latency_ms": 748,
-          "probe": "HTTP 200"
-        },
-        {
-          "id": "glm-5.2",
-          "last_verified": "2026-10-14",
+          "id": "mistral-large-3:675b",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -2603,8 +2528,48 @@
           "probe": "HTTP 402"
         },
         {
-          "id": "kimi-k2.7-code",
-          "last_verified": "2026-10-14",
+          "id": "nemotron-3-nano:30b",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 355,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "gemma4:31b",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "active",
+          "consecutive_failures": 0,
+          "latency_ms": 602,
+          "probe": "HTTP 200"
+        },
+        {
+          "id": "glm-5.3",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "glm-5.3-flash",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "kimi-k2.6",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -2619,19 +2584,39 @@
           "probe": "HTTP 402"
         },
         {
-          "id": "gemma4:31b",
-          "last_verified": "2026-10-14",
+          "id": "minimax-m2.7",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
+        },
+        {
+          "id": "gpt-oss:120b",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 443,
+          "latency_ms": 507,
           "probe": "HTTP 200"
+        },
+        {
+          "id": "minimax-m3",
+          "last_verified": "2026-10-15",
+          "deprecation": null,
+          "capabilities": null,
+          "status": "dead",
+          "consecutive_failures": 1,
+          "latency_ms": null,
+          "probe": "HTTP 402"
         }
       ],
       "quota": {
         "source": "none",
-        "checked_at": "2026-10-14T14:29:34Z",
+        "checked_at": "2026-10-15T14:31:05Z",
         "note": "no quota API; settings page only"
       }
     },
@@ -2641,7 +2626,7 @@
       "models": [
         {
           "id": "command-r7b-12-2024",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": {
             "status": "deprecated",
             "retires_on": "2025-09-15",
@@ -2666,23 +2651,23 @@
           },
           "status": "deprecated",
           "consecutive_failures": 0,
-          "latency_ms": 207,
+          "latency_ms": 251,
           "probe": "HTTP 200"
         }
       ],
       "quota": {
         "source": "none",
-        "checked_at": "2026-10-14T14:29:34Z",
+        "checked_at": "2026-10-15T14:31:05Z",
         "note": "no documented quota endpoint"
       }
     },
     "openrouter": {
-      "catalog_count": 462,
+      "catalog_count": 461,
       "catalog_error": null,
       "models": [
         {
           "id": "dots-studio/dots-3-note-preview:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 512000,
@@ -2703,12 +2688,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 2306,
+          "latency_ms": 5515,
           "probe": "HTTP 200"
         },
         {
           "id": "liquid/lfm-2.5-2.6b:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 65536,
@@ -2733,7 +2718,7 @@
         },
         {
           "id": "nvidia/nemotron-3.5-lightning:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 1000000,
@@ -2758,7 +2743,7 @@
         },
         {
           "id": "thinkingmachines/inkling-small:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 1048576,
@@ -2785,7 +2770,7 @@
         },
         {
           "id": "poolside/laguna-s-2.1:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -2810,7 +2795,7 @@
         },
         {
           "id": "thinkingmachines/inkling:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 1048576,
@@ -2837,7 +2822,7 @@
         },
         {
           "id": "poolside/laguna-xs-2.1:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -2862,7 +2847,7 @@
         },
         {
           "id": "cohere/north-mini-code:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 256000,
@@ -2882,12 +2867,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 240,
+          "latency_ms": 542,
           "probe": "HTTP 200"
         },
         {
           "id": "nvidia/nemotron-3.5-content-safety:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 128000,
@@ -2912,7 +2897,7 @@
         },
         {
           "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 1000000,
@@ -2937,7 +2922,7 @@
         },
         {
           "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 256000,
@@ -2965,7 +2950,7 @@
         },
         {
           "id": "google/gemma-4-26b-a4b-it:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -2991,7 +2976,7 @@
         },
         {
           "id": "google/gemma-4-31b-it:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -3013,12 +2998,12 @@
           },
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 744,
+          "latency_ms": 592,
           "probe": "HTTP 200"
         },
         {
           "id": "nvidia/nemotron-3-super-120b-a12b:free",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": {
             "context_window": 262144,
@@ -3044,7 +3029,7 @@
       ],
       "quota": {
         "source": "key-endpoint",
-        "checked_at": "2026-10-14T14:29:34Z",
+        "checked_at": "2026-10-15T14:31:05Z",
         "limit": 100,
         "limit_remaining": 100,
         "usage_daily": 0,
@@ -3052,12 +3037,12 @@
       }
     },
     "llm7": {
-      "catalog_count": 66,
+      "catalog_count": 63,
       "catalog_error": null,
       "models": [
         {
           "id": "DeepSeek-V4-Flash-0731",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": {
             "status": "retired",
             "retires_on": "2026-09-10",
@@ -3076,7 +3061,7 @@
           "probe": "skipped (retired per aimodelwatch)",
           "shadow_probe": {
             "http_status": 200,
-            "latency_ms": 305,
+            "latency_ms": 286,
             "inferred_status": "active",
             "feed_accurate": false,
             "disagreement_days": 1
@@ -3084,27 +3069,27 @@
         },
         {
           "id": "GLM-5.3-Flash",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 285,
+          "latency_ms": 303,
           "probe": "HTTP 200"
         },
         {
           "id": "codestral-latest",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 272,
+          "latency_ms": 414,
           "probe": "HTTP 200"
         },
         {
           "id": "gemma4:31b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -3114,7 +3099,7 @@
         },
         {
           "id": "glm-5.2",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -3124,27 +3109,27 @@
         },
         {
           "id": "gpt-oss:20b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 928,
+          "latency_ms": 427,
           "probe": "HTTP 200"
         },
         {
           "id": "minimax-m2.7",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "active",
           "consecutive_failures": 0,
-          "latency_ms": 282,
+          "latency_ms": 1965,
           "probe": "HTTP 200"
         },
         {
           "id": "minimax-m3",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "dead",
@@ -3154,7 +3139,7 @@
         },
         {
           "id": "mistral-Nemo-Instruct-2407",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "rate-limited",
@@ -3163,7 +3148,7 @@
         },
         {
           "id": "nemotron-3-nano:30b",
-          "last_verified": "2026-10-14",
+          "last_verified": "2026-10-15",
           "deprecation": null,
           "capabilities": null,
           "status": "rate-limited",
@@ -3173,9 +3158,9 @@
       ],
       "quota": {
         "source": "response-headers",
-        "checked_at": "2026-10-14T14:29:34Z",
+        "checked_at": "2026-10-15T14:31:05Z",
         "headers": {
-          "retry-after": "22"
+          "retry-after": "20"
         }
       }
     }
