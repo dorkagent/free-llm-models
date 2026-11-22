@@ -2,7 +2,7 @@
 
 Which free API models actually work *right now*, verified daily with real free-tier keys — not copied from pricing pages.
 
-_Last verified: 2026-11-21T20:24:53Z_
+_Last verified: 2026-11-22T20:37:43Z_
 
 ## Models by lane
 
@@ -12,57 +12,57 @@ Full per-lane tables are collapsible below. Statuses: **active** = answered the 
 
 | Model | Status | Latency | Capabilities | Last check |
 |---|---|---|---|---|
-| `canopylabs/orpheus-v1-english` | **not-chat** | — | ctx 4k | 2026-11-21 |
-| `canopylabs/orpheus-arabic-saudi` | **not-chat** | — | ctx 4k | 2026-11-21 |
-| `openai/gpt-oss-safeguard-20b` | **not-chat** | — | ctx 131k, tools, reasoning | 2026-11-21 |
-| `qwen/qwen3.8-27b` | **active** | 538ms | ctx 131k, tools, reasoning, vision | 2026-11-21 |
-| `meta-llama/llama-prompt-guard-2-22m` | **not-chat** | — | ctx 0k | 2026-11-21 |
-| `whisper-large-v3-turbo` | **not-chat** | — | ctx 0k | 2026-11-21 |
-| `openai/gpt-oss-20b` | **active** | 250ms | ctx 131k, tools, reasoning | 2026-11-21 |
-| `whisper-large-v3` | **not-chat** | — | ctx 0k | 2026-11-21 |
-| `openai/gpt-oss-120b` | **active** | 321ms | ctx 131k, tools, reasoning | 2026-11-21 |
-| `meta-llama/llama-prompt-guard-2-86m` | **not-chat** | — | ctx 0k | 2026-11-21 |
-| `allam-2-7b` | **active** | 273ms | ctx 4k | 2026-11-21 |
+| `openai/gpt-oss-safeguard-20b` | **not-chat** | — | ctx 131k, tools, reasoning | 2026-11-22 |
+| `allam-2-7b` | **active** | 271ms | ctx 4k | 2026-11-22 |
+| `canopylabs/orpheus-arabic-saudi` | **not-chat** | — | ctx 4k | 2026-11-22 |
+| `meta-llama/llama-prompt-guard-2-86m` | **not-chat** | — | ctx 0k | 2026-11-22 |
+| `meta-llama/llama-prompt-guard-2-22m` | **not-chat** | — | ctx 0k | 2026-11-22 |
+| `openai/gpt-oss-20b` | **active** | 317ms | ctx 131k, tools, reasoning | 2026-11-22 |
+| `whisper-large-v3` | **not-chat** | — | ctx 0k | 2026-11-22 |
+| `openai/gpt-oss-120b` | **active** | 223ms | ctx 131k, tools, reasoning | 2026-11-22 |
+| `canopylabs/orpheus-v1-english` | **not-chat** | — | ctx 4k | 2026-11-22 |
+| `whisper-large-v3-turbo` | **not-chat** | — | ctx 0k | 2026-11-22 |
+| `qwen/qwen3.8-27b` | **active** | 99ms | ctx 131k, tools, reasoning, vision | 2026-11-22 |
 
 </details>
 
-<details><summary><b>nvidia</b> — 13/33 active</summary>
+<details><summary><b>nvidia</b> — 12/33 active</summary>
 
 | Model | Status | Latency | Capabilities | Last check |
 |---|---|---|---|---|
-| `bigcode/starcoder2-15b` | **dead** | — | — | 2026-11-21 |
-| `fastino/gliner2-pii` | **not-chat** | — | — | 2026-11-21 |
-| `google/gemma-3-12b-it` | **dead** | — | ctx 131k, tools, vision | 2026-11-21 |
-| `google/gemma-3-4b-it` | **dead** | — | ctx 131k, tools, vision | 2026-11-21 |
-| `google/gemma-4-31b-it` | **dead** | — | ctx 256k, tools, reasoning, vision | 2026-11-21 |
-| `meta/muse-glimmer-30b` | **active** | 1096ms | ctx 131k, tools, reasoning, vision | 2026-11-21 |
-| `minimaxai/minimax-m3.1-flash` | **active** | 23732ms | ctx 262k, tools, reasoning, vision | 2026-11-21 |
-| `mistralai/mistral-large-4-1t-a52b` | **active** | 3825ms | ctx 1000k | 2026-11-21 |
-| `moonshotai/kimi-k3.1-pro` | **active** | 14106ms | ctx 1048k, tools, reasoning, vision | 2026-11-21 |
-| `nvidia/ai-synthetic-video-detector` | **dead** | — | — | 2026-11-21 |
-| `nvidia/cosmos-reason2-8b` | **dead** | — | ctx 131k, tools, reasoning, vision | 2026-11-21 |
-| `nvidia/embed-qa-4` | **not-chat** | — | — | 2026-11-21 |
-| `nvidia/ising-calibration-1.5-31b` | **active** | 674ms | — | 2026-11-21 |
-| `nvidia/llama-3.1-nemoguard-8b-topic-control` | **not-chat** | — | — | 2026-11-21 |
-| `nvidia/llama-3.1-nemotron-safety-guard-8b-v3` | **not-chat** | — | ctx 128k | 2026-11-21 |
-| `nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1` | **not-chat** | — | — | 2026-11-21 |
-| `nvidia/llama-3.2-nv-embedqa-1b-v1` | **not-chat** | — | — | 2026-11-21 |
-| `nvidia/nemotron-3-embed-1b` | **not-chat** | — | — | 2026-11-21 |
-| `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` | **active** | 200ms | ctx 256k, tools, reasoning, vision | 2026-11-21 |
-| `nvidia/nemotron-3-ultra-550b-a55b` | **active** | 576ms | ctx 1000k, tools, reasoning | 2026-11-21 |
-| `nvidia/nemotron-3.5-bolt-e4b` | **active** | 311ms | — | 2026-11-21 |
-| `nvidia/nemotron-3.5-content-safety` | **not-chat** | — | ctx 128k, reasoning, vision | 2026-11-21 |
-| `nvidia/nemotron-3.5-embed-1b` | **not-chat** | — | — | 2026-11-21 |
-| `nvidia/nemotron-3.5-embed-8b` | **not-chat** | — | — | 2026-11-21 |
-| `nvidia/nemotron-3.5-lightning-30b-a3b` | **active** | 230ms | ctx 262k, tools, reasoning | 2026-11-21 |
-| `nvidia/nemotron-3.5-super-vl-120b-a12b` | **active** | 482ms | ctx 1048k, tools, reasoning, vision | 2026-11-21 |
-| `nvidia/nv-embedqa-mistral-7b-v2` | **not-chat** | — | — | 2026-11-21 |
-| `nvidia/nvclip` | **dead** | — | — | 2026-11-21 |
-| `nvidia/riva-translate-4b-instruct-v2` | **active** | 311ms | — | 2026-11-21 |
-| `poolside/laguna-xs-2.1` | **active** | 187ms | ctx 262k, tools, reasoning | 2026-11-21 |
-| `snowflake/arctic-embed-l` | **not-chat** | — | — | 2026-11-21 |
-| `stepfun-ai/step-5-preview` | **active** | 979ms | ctx 1048k, tools, reasoning, vision | 2026-11-21 |
-| `z-ai/glm-5.3-flash` | **dead** | — | ctx 1000k, tools, reasoning, vision | 2026-11-21 |
+| `bigcode/starcoder2-15b` | **dead** | — | — | 2026-11-22 |
+| `fastino/gliner2-pii` | **not-chat** | — | — | 2026-11-22 |
+| `google/gemma-3-12b-it` | **dead** | — | ctx 131k, tools, vision | 2026-11-22 |
+| `google/gemma-3-4b-it` | **dead** | — | ctx 131k, tools, vision | 2026-11-22 |
+| `google/gemma-4-31b-it` | **dead** | — | ctx 256k, tools, reasoning, vision | 2026-11-22 |
+| `meta/muse-glimmer-30b` | **active** | 2311ms | ctx 131k, tools, reasoning, vision | 2026-11-22 |
+| `minimaxai/minimax-m3.1-flash` | **active** | 770ms | ctx 262k, tools, reasoning, vision | 2026-11-22 |
+| `mistralai/mistral-large-4-1t-a52b` | **dead** | — | ctx 1000k | 2026-11-22 |
+| `moonshotai/kimi-k3.1-pro` | **dead** | — | ctx 1048k, tools, reasoning, vision | 2026-11-22 |
+| `nvidia/ai-synthetic-video-detector` | **dead** | — | — | 2026-11-22 |
+| `nvidia/cosmos-reason2-8b` | **dead** | — | ctx 131k, tools, reasoning, vision | 2026-11-22 |
+| `nvidia/embed-qa-4` | **not-chat** | — | — | 2026-11-22 |
+| `nvidia/ising-calibration-1.5-31b` | **active** | 352ms | — | 2026-11-22 |
+| `nvidia/llama-3.1-nemoguard-8b-topic-control` | **not-chat** | — | — | 2026-11-22 |
+| `nvidia/llama-3.1-nemotron-safety-guard-8b-v3` | **not-chat** | — | ctx 128k | 2026-11-22 |
+| `nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1` | **not-chat** | — | — | 2026-11-22 |
+| `nvidia/llama-3.2-nv-embedqa-1b-v1` | **not-chat** | — | — | 2026-11-22 |
+| `nvidia/nemotron-3-embed-1b` | **not-chat** | — | — | 2026-11-22 |
+| `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` | **active** | 182ms | ctx 256k, tools, reasoning, vision | 2026-11-22 |
+| `nvidia/nemotron-3-ultra-550b-a55b` | **active** | 687ms | ctx 1000k, tools, reasoning | 2026-11-22 |
+| `nvidia/nemotron-3.5-bolt-e4b` | **active** | 265ms | — | 2026-11-22 |
+| `nvidia/nemotron-3.5-content-safety` | **not-chat** | — | ctx 128k, reasoning, vision | 2026-11-22 |
+| `nvidia/nemotron-3.5-embed-1b` | **not-chat** | — | — | 2026-11-22 |
+| `nvidia/nemotron-3.5-embed-8b` | **not-chat** | — | — | 2026-11-22 |
+| `nvidia/nemotron-3.5-lightning-30b-a3b` | **active** | 202ms | ctx 262k, tools, reasoning | 2026-11-22 |
+| `nvidia/nemotron-3.5-super-vl-120b-a12b` | **active** | 287ms | ctx 1048k, tools, reasoning, vision | 2026-11-22 |
+| `nvidia/nv-embedqa-mistral-7b-v2` | **not-chat** | — | — | 2026-11-22 |
+| `nvidia/nvclip` | **dead** | — | — | 2026-11-22 |
+| `nvidia/riva-translate-4b-instruct-v2` | **active** | 578ms | — | 2026-11-22 |
+| `poolside/laguna-xs-2.1` | **active** | 235ms | ctx 262k, tools, reasoning | 2026-11-22 |
+| `snowflake/arctic-embed-l` | **not-chat** | — | — | 2026-11-22 |
+| `stepfun-ai/step-5-preview` | **active** | 386ms | ctx 1048k, tools, reasoning, vision | 2026-11-22 |
+| `z-ai/glm-5.3-flash` | **active** | 660ms | ctx 1000k, tools, reasoning, vision | 2026-11-22 |
 
 </details>
 
@@ -70,98 +70,99 @@ Full per-lane tables are collapsible below. Statuses: **active** = answered the 
 
 | Model | Status | Latency | Capabilities | Last check |
 |---|---|---|---|---|
-| `codestral-2508` | **active** | 411ms | ctx 256k, tools | 2026-11-21 |
-| `codestral-latest` | **active** | 320ms | ctx 256k, tools | 2026-11-21 |
-| `mistral-code-latest` | **rate-limited** | — | — | 2026-11-21 |
-| `mistral-code-fim-latest` | **rate-limited** | — | — | 2026-11-21 |
-| `ministral-14b-2512` | **active** | 486ms | ctx 262k, tools, vision | 2026-11-21 |
-| `ministral-14b-latest` | **active** | 360ms | — | 2026-11-21 |
-| `ministral-3b-2512` | **active** | 288ms | ctx 131k, tools, vision | 2026-11-21 |
-| `ministral-3b-latest` | **active** | 347ms | ctx 131k, tools, vision | 2026-11-21 |
-| `ministral-8b-2512` | **active** | 467ms | ctx 262k, tools, vision | 2026-11-21 |
-| `ministral-8b-latest` | **active** | 420ms | ctx 262k, tools, vision | 2026-11-21 |
-| `mistral-medium-latest` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-21 |
-| `mistral-medium` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-21 |
-| `mistral-medium-3-5` | **rate-limited** | — | — | 2026-11-21 |
-| `mistral-medium-3.5` | **rate-limited** | — | — | 2026-11-21 |
-| `mistral-medium-3` | **rate-limited** | — | — | 2026-11-21 |
-| `mistral-medium-2604` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-21 |
-| `mistral-vibe-cli-latest` | **rate-limited** | — | — | 2026-11-21 |
-| `mistral-vibe-cli-with-tools` | **rate-limited** | — | — | 2026-11-21 |
-| `magistral-medium-latest` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-21 |
-| `mistral-small-2603` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-21 |
-| `mistral-small-latest` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-21 |
-| `mistral-vibe-cli-fast` | **rate-limited** | — | — | 2026-11-21 |
-| `magistral-small-latest` | **rate-limited** | — | — | 2026-11-21 |
-| `voxtral-small-2507` | **active** | 331ms | ctx 32k, tools | 2026-11-21 |
-| `voxtral-small-latest` | **active** | 372ms | ctx 32k, tools | 2026-11-21 |
-| `codestral-embed` | **not-chat** | — | ctx 8k | 2026-11-21 |
-| `codestral-embed-2505` | **not-chat** | — | ctx 8k | 2026-11-21 |
-| `mistral-embed-2312` | **not-chat** | — | ctx 8k | 2026-11-21 |
-| `mistral-embed` | **not-chat** | — | ctx 8k | 2026-11-21 |
-| `mistral-moderation-2603` | **not-chat** | — | — | 2026-11-21 |
-| `mistral-ocr-2512` | **not-chat** | — | — | 2026-11-21 |
-| `mistral-ocr-3-0` | **not-chat** | — | — | 2026-11-21 |
-| `mistral-ocr-3` | **not-chat** | — | — | 2026-11-21 |
-| `mistral-ocr-latest` | **not-chat** | — | — | 2026-11-21 |
-| `mistral-ocr-4` | **not-chat** | — | — | 2026-11-21 |
-| `mistral-ocr-4-1` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-2602` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-latest` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-transcribe-3` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-transcribe-3-0` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-transcribe-realtime-2602` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-realtime-2602` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-realtime-latest` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-transcribe-realtime-3` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-transcribe-realtime-3-0` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-small-transcribe-3` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-small-transcribe-3-0` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-tts-2603` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-tts-latest` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-tts-3-0` | **not-chat** | — | — | 2026-11-21 |
-| `voxtral-mini-tts-3` | **not-chat** | — | — | 2026-11-21 |
+| `codestral-2508` | **active** | 401ms | ctx 256k, tools | 2026-11-22 |
+| `codestral-latest` | **active** | 396ms | ctx 256k, tools | 2026-11-22 |
+| `mistral-code-latest` | **rate-limited** | — | — | 2026-11-22 |
+| `mistral-code-fim-latest` | **rate-limited** | — | — | 2026-11-22 |
+| `ministral-14b-2512` | **active** | 378ms | ctx 262k, tools, vision | 2026-11-22 |
+| `ministral-14b-latest` | **active** | 383ms | — | 2026-11-22 |
+| `ministral-3b-2512` | **active** | 355ms | ctx 131k, tools, vision | 2026-11-22 |
+| `ministral-3b-latest` | **active** | 355ms | ctx 131k, tools, vision | 2026-11-22 |
+| `ministral-8b-2512` | **active** | 355ms | ctx 262k, tools, vision | 2026-11-22 |
+| `ministral-8b-latest` | **active** | 353ms | ctx 262k, tools, vision | 2026-11-22 |
+| `mistral-medium-latest` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-22 |
+| `mistral-medium` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-22 |
+| `mistral-medium-3-5` | **rate-limited** | — | — | 2026-11-22 |
+| `mistral-medium-3.5` | **rate-limited** | — | — | 2026-11-22 |
+| `mistral-medium-3` | **rate-limited** | — | — | 2026-11-22 |
+| `mistral-medium-2604` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-22 |
+| `mistral-vibe-cli-latest` | **rate-limited** | — | — | 2026-11-22 |
+| `mistral-vibe-cli-with-tools` | **rate-limited** | — | — | 2026-11-22 |
+| `magistral-medium-latest` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-22 |
+| `mistral-small-2603` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-22 |
+| `mistral-small-latest` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-22 |
+| `mistral-vibe-cli-fast` | **rate-limited** | — | — | 2026-11-22 |
+| `magistral-small-latest` | **rate-limited** | — | — | 2026-11-22 |
+| `voxtral-small-2507` | **active** | 917ms | ctx 32k, tools | 2026-11-22 |
+| `voxtral-small-latest` | **active** | 389ms | ctx 32k, tools | 2026-11-22 |
+| `codestral-embed` | **not-chat** | — | ctx 8k | 2026-11-22 |
+| `codestral-embed-2505` | **not-chat** | — | ctx 8k | 2026-11-22 |
+| `mistral-embed-2312` | **not-chat** | — | ctx 8k | 2026-11-22 |
+| `mistral-embed` | **not-chat** | — | ctx 8k | 2026-11-22 |
+| `mistral-moderation-2603` | **not-chat** | — | — | 2026-11-22 |
+| `mistral-ocr-2512` | **not-chat** | — | — | 2026-11-22 |
+| `mistral-ocr-3-0` | **not-chat** | — | — | 2026-11-22 |
+| `mistral-ocr-3` | **not-chat** | — | — | 2026-11-22 |
+| `mistral-ocr-latest` | **not-chat** | — | — | 2026-11-22 |
+| `mistral-ocr-4` | **not-chat** | — | — | 2026-11-22 |
+| `mistral-ocr-4-1` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-2602` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-latest` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-transcribe-3` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-transcribe-3-0` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-transcribe-realtime-2602` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-realtime-2602` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-realtime-latest` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-transcribe-realtime-3` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-transcribe-realtime-3-0` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-small-transcribe-3` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-small-transcribe-3-0` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-tts-2603` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-tts-latest` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-tts-3-0` | **not-chat** | — | — | 2026-11-22 |
+| `voxtral-mini-tts-3` | **not-chat** | — | — | 2026-11-22 |
 
 </details>
 
-<details><summary><b>zai</b> — 2/3 active</summary>
+<details><summary><b>zai</b> — 3/3 active</summary>
 
 | Model | Status | Latency | Capabilities | Last check |
 |---|---|---|---|---|
-| `glm-4.7-flash` | **rate-limited** | — | ctx 200k, tools, reasoning | 2026-11-21 |
-| `glm-4.5-flash` | **active** | 1163ms | ctx 131k, tools, reasoning | 2026-11-21 |
-| `glm-4.6v-flash` | **active** | 811ms | ctx 128k, tools, reasoning, vision | 2026-11-21 |
+| `glm-4.7-flash` | **active** | 1069ms | ctx 200k, tools, reasoning | 2026-11-22 |
+| `glm-4.5-flash` | **active** | 780ms | ctx 131k, tools, reasoning | 2026-11-22 |
+| `glm-4.6v-flash` | **active** | 545ms | ctx 128k, tools, reasoning, vision | 2026-11-22 |
 
 </details>
 
-<details><summary><b>ollama</b> — 0/24 active</summary>
+<details><summary><b>ollama</b> — 0/25 active</summary>
 
 | Model | Status | Latency | Capabilities | Last check |
 |---|---|---|---|---|
-| `kimi-k2.7-code` | **dead** | — | ctx 262k | 2026-11-21 |
-| `gpt-oss:20b` | **dead** | — | — | 2026-11-21 |
-| `mimo-v2.6-flash` | **dead** | — | — | 2026-11-21 |
-| `kimi-k3` | **dead** | — | ctx 1048k | 2026-11-21 |
-| `glm-5.3` | **dead** | — | — | 2026-11-21 |
-| `inkling-2-small` | **dead** | — | — | 2026-11-21 |
-| `nemotron-3-ultra` | **dead** | — | — | 2026-11-21 |
-| `clef:27b` | **not-chat** | — | — | 2026-11-21 |
-| `kimi-k3.1-pro` | **dead** | — | ctx 1048k | 2026-11-21 |
-| `kimi-k2.6` | **dead** | — | ctx 262k | 2026-11-21 |
-| `deepseek-v4-pro:0813` | **dead** | — | ctx 1000k | 2026-11-21 |
-| `deepseek-v4.1-flash:1017` | **dead** | — | — | 2026-11-21 |
-| `minimax-m3` | **dead** | — | — | 2026-11-21 |
-| `nemotron-3-super` | **dead** | — | — | 2026-11-21 |
-| `glm-5.3-flash` | **dead** | — | — | 2026-11-21 |
-| `minimax-m3.1-flash` | **dead** | — | — | 2026-11-21 |
-| `gemma4:31b` | **dead** | — | — | 2026-11-21 |
-| `muse-spark-open` | **dead** | — | — | 2026-11-21 |
-| `mimo-v2.6-pro` | **dead** | — | — | 2026-11-21 |
-| `glm-5.2` | **dead** | — | — | 2026-11-21 |
-| `mistral-large-4` | **dead** | — | ctx 1000k | 2026-11-21 |
-| `beam` | **dead** | — | — | 2026-11-21 |
-| `deepseek-v4.1-flash` | **dead** | — | — | 2026-11-21 |
-| `gpt-oss:120b` | **dead** | — | — | 2026-11-21 |
+| `inkling-2-small` | **dead** | — | — | 2026-11-22 |
+| `muse-spark-open` | **dead** | — | — | 2026-11-22 |
+| `nemotron-3-ultra` | **dead** | — | — | 2026-11-22 |
+| `deepseek-v4-pro:0813` | **dead** | — | ctx 1000k | 2026-11-22 |
+| `minimax-m3` | **dead** | — | — | 2026-11-22 |
+| `beam` | **dead** | — | — | 2026-11-22 |
+| `kimi-k3` | **dead** | — | ctx 1048k | 2026-11-22 |
+| `kimi-k2.6` | **dead** | — | ctx 262k | 2026-11-22 |
+| `minimax-m3.1-flash` | **dead** | — | — | 2026-11-22 |
+| `glm-5.3` | **dead** | — | — | 2026-11-22 |
+| `deepseek-v4.1-flash:1017` | **dead** | — | — | 2026-11-22 |
+| `gpt-oss:20b` | **dead** | — | — | 2026-11-22 |
+| `hy4` | **dead** | — | — | 2026-11-22 |
+| `gemma4:31b` | **dead** | — | — | 2026-11-22 |
+| `kimi-k2.7-code` | **dead** | — | ctx 262k | 2026-11-22 |
+| `mistral-large-4` | **dead** | — | ctx 1000k | 2026-11-22 |
+| `glm-5.3-flash` | **dead** | — | — | 2026-11-22 |
+| `glm-5.2` | **dead** | — | — | 2026-11-22 |
+| `mimo-v2.6-flash` | **dead** | — | — | 2026-11-22 |
+| `deepseek-v4.1-flash` | **dead** | — | — | 2026-11-22 |
+| `gpt-oss:120b` | **dead** | — | — | 2026-11-22 |
+| `nemotron-3-super` | **dead** | — | — | 2026-11-22 |
+| `kimi-k3.1-pro` | **dead** | — | ctx 1048k | 2026-11-22 |
+| `clef:27b` | **not-chat** | — | — | 2026-11-22 |
+| `mimo-v2.6-pro` | **dead** | — | — | 2026-11-22 |
 
 </details>
 
@@ -169,25 +170,25 @@ Full per-lane tables are collapsible below. Statuses: **active** = answered the 
 
 | Model | Status | Latency | Capabilities | Last check |
 |---|---|---|---|---|
-| `command-r7b-12-2024` | **deprecated** | 245ms | ctx 128k, tools | 2026-11-21 |
+| `command-r7b-12-2024` | **deprecated** | 219ms | ctx 128k, tools | 2026-11-22 |
 
 </details>
 
-<details><summary><b>openrouter</b> — 3/11 active</summary>
+<details><summary><b>openrouter</b> — 1/11 active</summary>
 
 | Model | Status | Latency | Capabilities | Last check |
 |---|---|---|---|---|
-| `inclusionai/ling-3.2-flash:free` | **active** | 1733ms | ctx 1048k, tools, reasoning, vision | 2026-11-21 |
-| `baidu/ernie-5.5-flash-preview:free` | **active** | 878ms | ctx 1024k, tools, reasoning | 2026-11-21 |
-| `liquid/lfm-3-1.7b:free` | **dead** | — | ctx 262k, tools, reasoning | 2026-11-21 |
-| `particle-ai/particle-1:free` | **dead** | — | ctx 1048k, tools, reasoning, vision | 2026-11-21 |
-| `recursive/flint-v1.0:free` | **active** | 411ms | ctx 262k, tools, reasoning | 2026-11-21 |
-| `nvidia/nemotron-3.5-super-vl:free` | **dead** | — | ctx 1000k, tools, reasoning, vision | 2026-11-21 |
-| `nvidia/nemotron-3.5-lightning:free` | **dead** | — | ctx 1000k, tools, reasoning | 2026-11-21 |
-| `nvidia/nemotron-3-ultra-550b-a55b:free` | **dead** | — | ctx 1000k, tools, reasoning | 2026-11-21 |
-| `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | **dead** | — | ctx 256k, tools, reasoning, vision | 2026-11-21 |
-| `google/gemma-4-26b-a4b-it:free` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-21 |
-| `google/gemma-4-31b-it:free` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-21 |
+| `inclusionai/ling-3.2-flash:free` | **rate-limited** | — | ctx 1048k, tools, reasoning, vision | 2026-11-22 |
+| `baidu/ernie-5.5-flash-preview:free` | **rate-limited** | — | ctx 1024k, tools, reasoning | 2026-11-22 |
+| `liquid/lfm-3-1.7b:free` | **dead** | — | ctx 262k, tools, reasoning | 2026-11-22 |
+| `particle-ai/particle-1:free` | **dead** | — | ctx 1048k, tools, reasoning, vision | 2026-11-22 |
+| `recursive/flint-v1.0:free` | **active** | 404ms | ctx 262k, tools, reasoning | 2026-11-22 |
+| `nvidia/nemotron-3.5-super-vl:free` | **dead** | — | ctx 1000k, tools, reasoning, vision | 2026-11-22 |
+| `nvidia/nemotron-3.5-lightning:free` | **dead** | — | ctx 1000k, tools, reasoning | 2026-11-22 |
+| `nvidia/nemotron-3-ultra-550b-a55b:free` | **dead** | — | ctx 1000k, tools, reasoning | 2026-11-22 |
+| `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | **dead** | — | ctx 256k, tools, reasoning, vision | 2026-11-22 |
+| `google/gemma-4-26b-a4b-it:free` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-22 |
+| `google/gemma-4-31b-it:free` | **rate-limited** | — | ctx 262k, tools, reasoning, vision | 2026-11-22 |
 
 </details>
 
@@ -195,16 +196,16 @@ Full per-lane tables are collapsible below. Statuses: **active** = answered the 
 
 | Model | Status | Latency | Capabilities | Last check |
 |---|---|---|---|---|
-| `DeepSeek-V4-Flash-0731` | **retired** | — | ctx 1000k | 2026-11-21 |
-| `GLM-5.3-Flash` | **not-chat** | — | — | 2026-11-21 |
-| `codestral-latest` | **active** | 675ms | — | 2026-11-21 |
-| `gemma4:31b` | **dead** | — | — | 2026-11-21 |
-| `glm-5.2` | **dead** | — | — | 2026-11-21 |
-| `gpt-oss:20b` | **active** | 570ms | — | 2026-11-21 |
-| `minimax-m2.7` | **not-chat** | — | — | 2026-11-21 |
-| `minimax-m3` | **dead** | — | — | 2026-11-21 |
-| `mistral-Nemo-Instruct-2407` | **active** | 246ms | — | 2026-11-21 |
-| `nemotron-3-nano:30b` | **not-chat** | — | — | 2026-11-21 |
+| `DeepSeek-V4-Flash-0731` | **retired** | — | ctx 1000k | 2026-11-22 |
+| `GLM-5.3-Flash` | **not-chat** | — | — | 2026-11-22 |
+| `codestral-latest` | **active** | 557ms | — | 2026-11-22 |
+| `gemma4:31b` | **dead** | — | — | 2026-11-22 |
+| `glm-5.2` | **dead** | — | — | 2026-11-22 |
+| `gpt-oss:20b` | **active** | 2291ms | — | 2026-11-22 |
+| `minimax-m2.7` | **not-chat** | — | — | 2026-11-22 |
+| `minimax-m3` | **dead** | — | — | 2026-11-22 |
+| `mistral-Nemo-Instruct-2407` | **active** | 3498ms | — | 2026-11-22 |
+| `nemotron-3-nano:30b` | **not-chat** | — | — | 2026-11-22 |
 
 </details>
 
@@ -212,134 +213,127 @@ Full per-lane tables are collapsible below. Statuses: **active** = answered the 
 ## Right model for the right job (verified-active only)
 
 **Long context** (ranked):
-1. `moonshotai/kimi-k3.1-pro` (nvidia) — 1,048,576 tokens
-2. `nvidia/nemotron-3.5-super-vl-120b-a12b` (nvidia) — 1,048,576 tokens
-3. `stepfun-ai/step-5-preview` (nvidia) — 1,048,576 tokens
-4. `inclusionai/ling-3.2-flash:free` (openrouter) — 1,048,576 tokens
-5. `baidu/ernie-5.5-flash-preview:free` (openrouter) — 1,024,000 tokens
-6. `mistralai/mistral-large-4-1t-a52b` (nvidia) — 1,000,000 tokens
-7. `nvidia/nemotron-3-ultra-550b-a55b` (nvidia) — 1,000,000 tokens
-8. `minimaxai/minimax-m3.1-flash` (nvidia) — 262,144 tokens
-9. `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia) — 262,144 tokens
-10. `poolside/laguna-xs-2.1` (nvidia) — 262,144 tokens
-11. `ministral-14b-2512` (mistral) — 262,144 tokens
-12. `ministral-8b-2512` (mistral) — 262,144 tokens
-13. `ministral-8b-latest` (mistral) — 262,144 tokens
-14. `recursive/flint-v1.0:free` (openrouter) — 262,144 tokens
-15. `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` (nvidia) — 256,000 tokens
-16. `codestral-2508` (mistral) — 256,000 tokens
-17. `codestral-latest` (mistral) — 256,000 tokens
+1. `nvidia/nemotron-3.5-super-vl-120b-a12b` (nvidia) — 1,048,576 tokens
+2. `stepfun-ai/step-5-preview` (nvidia) — 1,048,576 tokens
+3. `nvidia/nemotron-3-ultra-550b-a55b` (nvidia) — 1,000,000 tokens
+4. `z-ai/glm-5.3-flash` (nvidia) — 1,000,000 tokens
+5. `minimaxai/minimax-m3.1-flash` (nvidia) — 262,144 tokens
+6. `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia) — 262,144 tokens
+7. `poolside/laguna-xs-2.1` (nvidia) — 262,144 tokens
+8. `ministral-14b-2512` (mistral) — 262,144 tokens
+9. `ministral-8b-2512` (mistral) — 262,144 tokens
+10. `ministral-8b-latest` (mistral) — 262,144 tokens
+11. `recursive/flint-v1.0:free` (openrouter) — 262,144 tokens
+12. `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` (nvidia) — 256,000 tokens
+13. `codestral-2508` (mistral) — 256,000 tokens
+14. `codestral-latest` (mistral) — 256,000 tokens
+15. `glm-4.7-flash` (zai) — 200,000 tokens
+16. `openai/gpt-oss-20b` (groq) — 131,072 tokens
+17. `openai/gpt-oss-120b` (groq) — 131,072 tokens
 18. `qwen/qwen3.8-27b` (groq) — 131,072 tokens
-19. `openai/gpt-oss-20b` (groq) — 131,072 tokens
-20. `openai/gpt-oss-120b` (groq) — 131,072 tokens
-21. `meta/muse-glimmer-30b` (nvidia) — 131,072 tokens
-22. `ministral-3b-2512` (mistral) — 131,072 tokens
-23. `ministral-3b-latest` (mistral) — 131,072 tokens
-24. `glm-4.5-flash` (zai) — 131,072 tokens
-25. `glm-4.6v-flash` (zai) — 128,000 tokens
-26. `voxtral-small-2507` (mistral) — 32,768 tokens
-27. `voxtral-small-latest` (mistral) — 32,768 tokens
-28. `allam-2-7b` (groq) — 4,096 tokens
+19. `meta/muse-glimmer-30b` (nvidia) — 131,072 tokens
+20. `ministral-3b-2512` (mistral) — 131,072 tokens
+21. `ministral-3b-latest` (mistral) — 131,072 tokens
+22. `glm-4.5-flash` (zai) — 131,072 tokens
+23. `glm-4.6v-flash` (zai) — 128,000 tokens
+24. `voxtral-small-2507` (mistral) — 32,768 tokens
+25. `voxtral-small-latest` (mistral) — 32,768 tokens
+26. `allam-2-7b` (groq) — 4,096 tokens
 
 **Speed** (ranked):
-1. `poolside/laguna-xs-2.1` (nvidia) — 187ms probe
-2. `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` (nvidia) — 200ms probe
-3. `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia) — 230ms probe
-4. `mistral-Nemo-Instruct-2407` (llm7) — 246ms probe
-5. `openai/gpt-oss-20b` (groq) — 250ms probe
-6. `allam-2-7b` (groq) — 273ms probe
-7. `ministral-3b-2512` (mistral) — 288ms probe
-8. `nvidia/nemotron-3.5-bolt-e4b` (nvidia) — 311ms probe
-9. `nvidia/riva-translate-4b-instruct-v2` (nvidia) — 311ms probe
-10. `codestral-latest` (mistral) — 320ms probe
-11. `openai/gpt-oss-120b` (groq) — 321ms probe
-12. `voxtral-small-2507` (mistral) — 331ms probe
-13. `ministral-3b-latest` (mistral) — 347ms probe
-14. `ministral-14b-latest` (mistral) — 360ms probe
-15. `voxtral-small-latest` (mistral) — 372ms probe
-16. `codestral-2508` (mistral) — 411ms probe
-17. `recursive/flint-v1.0:free` (openrouter) — 411ms probe
-18. `ministral-8b-latest` (mistral) — 420ms probe
-19. `ministral-8b-2512` (mistral) — 467ms probe
-20. `nvidia/nemotron-3.5-super-vl-120b-a12b` (nvidia) — 482ms probe
-21. `ministral-14b-2512` (mistral) — 486ms probe
-22. `qwen/qwen3.8-27b` (groq) — 538ms probe
-23. `gpt-oss:20b` (llm7) — 570ms probe
-24. `nvidia/nemotron-3-ultra-550b-a55b` (nvidia) — 576ms probe
-25. `nvidia/ising-calibration-1.5-31b` (nvidia) — 674ms probe
-26. `codestral-latest` (llm7) — 675ms probe
-27. `glm-4.6v-flash` (zai) — 811ms probe
-28. `baidu/ernie-5.5-flash-preview:free` (openrouter) — 878ms probe
-29. `stepfun-ai/step-5-preview` (nvidia) — 979ms probe
-30. `meta/muse-glimmer-30b` (nvidia) — 1096ms probe
-31. `glm-4.5-flash` (zai) — 1163ms probe
-32. `inclusionai/ling-3.2-flash:free` (openrouter) — 1733ms probe
-33. `mistralai/mistral-large-4-1t-a52b` (nvidia) — 3825ms probe
-34. `moonshotai/kimi-k3.1-pro` (nvidia) — 14106ms probe
-35. `minimaxai/minimax-m3.1-flash` (nvidia) — 23732ms probe
+1. `qwen/qwen3.8-27b` (groq) — 99ms probe
+2. `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` (nvidia) — 182ms probe
+3. `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia) — 202ms probe
+4. `openai/gpt-oss-120b` (groq) — 223ms probe
+5. `poolside/laguna-xs-2.1` (nvidia) — 235ms probe
+6. `nvidia/nemotron-3.5-bolt-e4b` (nvidia) — 265ms probe
+7. `allam-2-7b` (groq) — 271ms probe
+8. `nvidia/nemotron-3.5-super-vl-120b-a12b` (nvidia) — 287ms probe
+9. `openai/gpt-oss-20b` (groq) — 317ms probe
+10. `nvidia/ising-calibration-1.5-31b` (nvidia) — 352ms probe
+11. `ministral-8b-latest` (mistral) — 353ms probe
+12. `ministral-3b-2512` (mistral) — 355ms probe
+13. `ministral-3b-latest` (mistral) — 355ms probe
+14. `ministral-8b-2512` (mistral) — 355ms probe
+15. `ministral-14b-2512` (mistral) — 378ms probe
+16. `ministral-14b-latest` (mistral) — 383ms probe
+17. `stepfun-ai/step-5-preview` (nvidia) — 386ms probe
+18. `voxtral-small-latest` (mistral) — 389ms probe
+19. `codestral-latest` (mistral) — 396ms probe
+20. `codestral-2508` (mistral) — 401ms probe
+21. `recursive/flint-v1.0:free` (openrouter) — 404ms probe
+22. `glm-4.6v-flash` (zai) — 545ms probe
+23. `codestral-latest` (llm7) — 557ms probe
+24. `nvidia/riva-translate-4b-instruct-v2` (nvidia) — 578ms probe
+25. `z-ai/glm-5.3-flash` (nvidia) — 660ms probe
+26. `nvidia/nemotron-3-ultra-550b-a55b` (nvidia) — 687ms probe
+27. `minimaxai/minimax-m3.1-flash` (nvidia) — 770ms probe
+28. `glm-4.5-flash` (zai) — 780ms probe
+29. `voxtral-small-2507` (mistral) — 917ms probe
+30. `glm-4.7-flash` (zai) — 1069ms probe
+31. `gpt-oss:20b` (llm7) — 2291ms probe
+32. `meta/muse-glimmer-30b` (nvidia) — 2311ms probe
+33. `mistral-Nemo-Instruct-2407` (llm7) — 3498ms probe
 
 **Tool calling** (ranked):
-1. `moonshotai/kimi-k3.1-pro` (nvidia) — 1048k ctx
-2. `nvidia/nemotron-3.5-super-vl-120b-a12b` (nvidia) — 1048k ctx
-3. `stepfun-ai/step-5-preview` (nvidia) — 1048k ctx
-4. `inclusionai/ling-3.2-flash:free` (openrouter) — 1048k ctx
-5. `baidu/ernie-5.5-flash-preview:free` (openrouter) — 1024k ctx
-6. `nvidia/nemotron-3-ultra-550b-a55b` (nvidia) — 1000k ctx
-7. `minimaxai/minimax-m3.1-flash` (nvidia) — 262k ctx
-8. `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia) — 262k ctx
-9. `poolside/laguna-xs-2.1` (nvidia) — 262k ctx
-10. `ministral-14b-2512` (mistral) — 262k ctx
-11. `ministral-8b-2512` (mistral) — 262k ctx
-12. `ministral-8b-latest` (mistral) — 262k ctx
-13. `recursive/flint-v1.0:free` (openrouter) — 262k ctx
-14. `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` (nvidia) — 256k ctx
-15. `codestral-2508` (mistral) — 256k ctx
-16. `codestral-latest` (mistral) — 256k ctx
-17. `qwen/qwen3.8-27b` (groq) — 131k ctx
-18. `openai/gpt-oss-20b` (groq) — 131k ctx
-19. `openai/gpt-oss-120b` (groq) — 131k ctx
-20. `meta/muse-glimmer-30b` (nvidia) — 131k ctx
-21. `ministral-3b-2512` (mistral) — 131k ctx
-22. `ministral-3b-latest` (mistral) — 131k ctx
-23. `glm-4.5-flash` (zai) — 131k ctx
-24. `glm-4.6v-flash` (zai) — 128k ctx
-25. `voxtral-small-2507` (mistral) — 32k ctx
-26. `voxtral-small-latest` (mistral) — 32k ctx
+1. `nvidia/nemotron-3.5-super-vl-120b-a12b` (nvidia) — 1048k ctx
+2. `stepfun-ai/step-5-preview` (nvidia) — 1048k ctx
+3. `nvidia/nemotron-3-ultra-550b-a55b` (nvidia) — 1000k ctx
+4. `z-ai/glm-5.3-flash` (nvidia) — 1000k ctx
+5. `minimaxai/minimax-m3.1-flash` (nvidia) — 262k ctx
+6. `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia) — 262k ctx
+7. `poolside/laguna-xs-2.1` (nvidia) — 262k ctx
+8. `ministral-14b-2512` (mistral) — 262k ctx
+9. `ministral-8b-2512` (mistral) — 262k ctx
+10. `ministral-8b-latest` (mistral) — 262k ctx
+11. `recursive/flint-v1.0:free` (openrouter) — 262k ctx
+12. `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` (nvidia) — 256k ctx
+13. `codestral-2508` (mistral) — 256k ctx
+14. `codestral-latest` (mistral) — 256k ctx
+15. `glm-4.7-flash` (zai) — 200k ctx
+16. `openai/gpt-oss-20b` (groq) — 131k ctx
+17. `openai/gpt-oss-120b` (groq) — 131k ctx
+18. `qwen/qwen3.8-27b` (groq) — 131k ctx
+19. `meta/muse-glimmer-30b` (nvidia) — 131k ctx
+20. `ministral-3b-2512` (mistral) — 131k ctx
+21. `ministral-3b-latest` (mistral) — 131k ctx
+22. `glm-4.5-flash` (zai) — 131k ctx
+23. `glm-4.6v-flash` (zai) — 128k ctx
+24. `voxtral-small-2507` (mistral) — 32k ctx
+25. `voxtral-small-latest` (mistral) — 32k ctx
 
 **Reasoning** (ranked):
-1. `moonshotai/kimi-k3.1-pro` (nvidia) — 1048k ctx
-2. `nvidia/nemotron-3.5-super-vl-120b-a12b` (nvidia) — 1048k ctx
-3. `stepfun-ai/step-5-preview` (nvidia) — 1048k ctx
-4. `inclusionai/ling-3.2-flash:free` (openrouter) — 1048k ctx
-5. `baidu/ernie-5.5-flash-preview:free` (openrouter) — 1024k ctx
-6. `nvidia/nemotron-3-ultra-550b-a55b` (nvidia) — 1000k ctx
-7. `minimaxai/minimax-m3.1-flash` (nvidia) — 262k ctx
-8. `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia) — 262k ctx
-9. `poolside/laguna-xs-2.1` (nvidia) — 262k ctx
-10. `recursive/flint-v1.0:free` (openrouter) — 262k ctx
-11. `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` (nvidia) — 256k ctx
-12. `qwen/qwen3.8-27b` (groq) — 131k ctx
-13. `openai/gpt-oss-20b` (groq) — 131k ctx
-14. `openai/gpt-oss-120b` (groq) — 131k ctx
-15. `meta/muse-glimmer-30b` (nvidia) — 131k ctx
-16. `glm-4.5-flash` (zai) — 131k ctx
-17. `glm-4.6v-flash` (zai) — 128k ctx
+1. `nvidia/nemotron-3.5-super-vl-120b-a12b` (nvidia) — 1048k ctx
+2. `stepfun-ai/step-5-preview` (nvidia) — 1048k ctx
+3. `nvidia/nemotron-3-ultra-550b-a55b` (nvidia) — 1000k ctx
+4. `z-ai/glm-5.3-flash` (nvidia) — 1000k ctx
+5. `minimaxai/minimax-m3.1-flash` (nvidia) — 262k ctx
+6. `nvidia/nemotron-3.5-lightning-30b-a3b` (nvidia) — 262k ctx
+7. `poolside/laguna-xs-2.1` (nvidia) — 262k ctx
+8. `recursive/flint-v1.0:free` (openrouter) — 262k ctx
+9. `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` (nvidia) — 256k ctx
+10. `glm-4.7-flash` (zai) — 200k ctx
+11. `openai/gpt-oss-20b` (groq) — 131k ctx
+12. `openai/gpt-oss-120b` (groq) — 131k ctx
+13. `qwen/qwen3.8-27b` (groq) — 131k ctx
+14. `meta/muse-glimmer-30b` (nvidia) — 131k ctx
+15. `glm-4.5-flash` (zai) — 131k ctx
+16. `glm-4.6v-flash` (zai) — 128k ctx
 
 **Vision (image input)** (ranked):
-1. `moonshotai/kimi-k3.1-pro` (nvidia) — 1048k ctx
-2. `nvidia/nemotron-3.5-super-vl-120b-a12b` (nvidia) — 1048k ctx
-3. `stepfun-ai/step-5-preview` (nvidia) — 1048k ctx
-4. `inclusionai/ling-3.2-flash:free` (openrouter) — 1048k ctx
-5. `minimaxai/minimax-m3.1-flash` (nvidia) — 262k ctx
-6. `ministral-14b-2512` (mistral) — 262k ctx
-7. `ministral-8b-2512` (mistral) — 262k ctx
-8. `ministral-8b-latest` (mistral) — 262k ctx
-9. `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` (nvidia) — 256k ctx
-10. `qwen/qwen3.8-27b` (groq) — 131k ctx
-11. `meta/muse-glimmer-30b` (nvidia) — 131k ctx
-12. `ministral-3b-2512` (mistral) — 131k ctx
-13. `ministral-3b-latest` (mistral) — 131k ctx
-14. `glm-4.6v-flash` (zai) — 128k ctx
+1. `nvidia/nemotron-3.5-super-vl-120b-a12b` (nvidia) — 1048k ctx
+2. `stepfun-ai/step-5-preview` (nvidia) — 1048k ctx
+3. `z-ai/glm-5.3-flash` (nvidia) — 1000k ctx
+4. `minimaxai/minimax-m3.1-flash` (nvidia) — 262k ctx
+5. `ministral-14b-2512` (mistral) — 262k ctx
+6. `ministral-8b-2512` (mistral) — 262k ctx
+7. `ministral-8b-latest` (mistral) — 262k ctx
+8. `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` (nvidia) — 256k ctx
+9. `qwen/qwen3.8-27b` (groq) — 131k ctx
+10. `meta/muse-glimmer-30b` (nvidia) — 131k ctx
+11. `ministral-3b-2512` (mistral) — 131k ctx
+12. `ministral-3b-latest` (mistral) — 131k ctx
+13. `glm-4.6v-flash` (zai) — 128k ctx
 
 _Not covered by any current lane: embeddings — all lanes are text chat models. These leaderboards apply when such lanes are added._
 
@@ -350,9 +344,9 @@ Where each lane stands on its free allowance. Quota comes from rate-limit header
 
 | Lane | Source | Requests remaining | Request limit | Reset / note |
 |---|---|---|---|---|
-| groq | response-headers | 6999 | 7000 | resets in 12.342s |
+| groq | response-headers | 999 | 1000 | resets in 1m26.4s |
 | nvidia | none | — | — | no quota API; dashboard only |
-| mistral | response-headers | 59 | 60 |  |
+| mistral | response-headers | 58 | 60 |  |
 | zai | none | — | — | no quota API; console only |
 | ollama | none | — | — | no quota API; settings page only |
 | cohere | none | — | — | no documented quota endpoint |
